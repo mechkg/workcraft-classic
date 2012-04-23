@@ -1,0 +1,1 @@
+forall t in TRANSITIONS { ~@t }

@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workcraft>
+  <options tab="0"/>
+  <editor>
+    <options grid="true" ids="false" labels="true" snap="true"/>
+    <viewstate s="1.0" tx="0.0" ty="0.0"/>
+  </editor>
+  <document model-uuid="a57b3350-73d3-11db-9fe1-0800200c9a66">
+    <editable class="workcraft.editor.GroupNode" id="_root" label="" rotation="0" selected="false">
+      <transform>
+        <vec3 x="0.0" y="0.0" z="0.0"/>
+        <vec3 x="1.0" y="1.0" z="1.0"/>
+      </transform>
+      <editable class="workcraft.spreadtoken.STLogic" id="l4" label="PC Read" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.2" y="0.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <st-logic eval-func="e(l2)" reset-func="r(l2)"/>
+      </editable>
+      <editable class="workcraft.spreadtoken.STLogic" id="l3" label="REG Read" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.2" y="-0.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <st-logic eval-func="e(l2)" reset-func="r(l2)"/>
+      </editable>
+      <editable class="workcraft.spreadtoken.STRegister" id="r0" label="" rotation="0" selected="true">
+        <transform>
+          <vec3 x="1.0" y="-0.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <sdfs-register/>
+        <st-register disable-func="m(r0)&amp;r(l16)" enable-func="(not m(r0))&amp;e(l16)" mark-func="re(r0)&amp;m(r11)&amp;(not m(r1))" marked="true" unmark-func="(not re(r0))&amp;(not m(r11))&amp;m(r1)"/>
+      </editable>
+      <editable class="workcraft.spreadtoken.STLogic" id="l10" label="join" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.4" y="-0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <st-logic eval-func="(e(l7)&amp;e(l8)&amp;e(l9)&amp;e(l12))" reset-func="(r(l7)&amp;r(l8)&amp;r(l9)&amp;r(l12))"/>
+      </editable>
+      <editable class="workcraft.spreadtoken.STRegister" id="r6" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.0" y="-0.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <sdfs-register/>
+        <st-register disable-func="m(r6)&amp;r(l6)" enable-func="(not m(r6))&amp;e(l6)" mark-func="re(r6)&amp;m(r3)&amp;(not m(r7))" marked="false" unmark-func="(not re(r6))&amp;(not m(r3))&amp;m(r7)"/>
+      </editable>
+      <editable class="workcraft.spreadtoken.STRegister" id="r3" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.6" y="-0.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <sdfs-register/>
+        <st-register disable-func="m(r3)&amp;r(l5)" enable-func="(not m(r3))&amp;e(l5)" mark-func="re(r3)&amp;m(r2)&amp;(not (m(r9)|m(r5)|m(r6)|m(r8)|m(r10)|m(r4)))" marked="false" unmark-func="(not re(r3))&amp;(not m(r2))&amp;(m(r9)&amp;m(r5)&amp;m(r6)&amp;m(r8)&amp;m(r10)&amp;m(r4))"/>
+      </editable>
+      <editable class="workcraft.spreadtoken.STLogic" id="l16" label="Inst. Mem." rotation="0" selected="false">
+        <transform>
+          <vec3 x="1.0" y="0.3" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <st-logic eval-func="m(r11)" reset-func="(not m(r11))"/>
+      </editable>
+      <editable class="workcraft.spreadtoken.STLogic" id="l0" label="Decode" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.8" y="-0.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <st-logic eval-func="m(r0)" reset-func="(not m(r0))"/>
+      </editable>
+      <editable class="workcraft.spreadtoken.STLogic" id="l9" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.2" y="-0.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <st-logic eval-func="m(r4)" reset-func="(not m(r4))"/>
+      </editable>
+      <editable class="workcraft.spreadtoken.STRegister" id="r2" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.2" y="-0.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <sdfs-register/>
+        <st-register disable-func="m(r2)&amp;r(l1)" enable-func="(not m(r2))&amp;e(l1)" mark-func="re(r2)&amp;m(r1)&amp;(not (m(r3)|m(r12)))" marked="false" unmark-func="(not re(r2))&amp;(not m(r1))&amp;(m(r3)&amp;m(r12))"/>
+      </editable>
+      <editable class="workcraft.spreadtoken.STLogic" id="l7" label="Logic" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.2" y="-0.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <st-logic eval-func="m(r6)" reset-func="(not m(r6))"/>
+      </editable>
+      <editable class="workcraft.spreadtoken.STLogic" id="l14" label="Bolt On" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.2" y="0.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <st-logic eval-func="m(r10)" reset-func="(not m(r10))"/>
+      </editable>
+      <editable class="workcraft.spreadtoken.STRegister" id="r1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.6" y="-0.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <sdfs-register/>
+        <st-register disable-func="m(r1)&amp;r(l0)" enable-func="(not m(r1))&amp;e(l0)" mark-func="re(r1)&amp;m(r0)&amp;(not m(r2))" marked="false" unmark-func="(not re(r1))&amp;(not m(r0))&amp;m(r2)"/>
+      </editable>
+      <editable class="workcraft.spreadtoken.STRegister" id="r11" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="1.0" y="0.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <sdfs-register/>
+        <st-register disable-func="m(r11)&amp;(not m(r13))" enable-func="(not m(r11))&amp;m(r13)" mark-func="re(r11)&amp;m(r13)&amp;(not m(r0))" marked="false" unmark-func="(not re(r11))&amp;(not m(r13))&amp;m(r0)"/>
+      </editable>
+      <editable class="workcraft.spreadtoken.STRegister" id="r13" label="PC ALU" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.2" y="0.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <sdfs-register/>
+        <st-register disable-func="m(r13)&amp;(not m(r12))" enable-func="(not m(r13))&amp;m(r12)" mark-func="re(r13)&amp;m(r12)&amp;(not m(r11))" marked="false" unmark-func="(not re(r13))&amp;(not m(r12))&amp;m(r11)"/>
+      </editable>
+      <editable class="workcraft.spreadtoken.STLogic" id="l8" label="Shift" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.2" y="-0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <st-logic eval-func="m(r5)" reset-func="(not m(r5))"/>
+      </editable>
+      <editable class="workcraft.spreadtoken.STRegister" id="r4" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.0" y="-0.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <sdfs-register/>
+        <st-register disable-func="m(r4)&amp;r(l6)" enable-func="(not m(r4))&amp;e(l6)" mark-func="re(r4)&amp;m(r3)&amp;(not m(r7))" marked="false" unmark-func="(not re(r4))&amp;(not m(r3))&amp;m(r7)"/>
+      </editable>
+      <editable class="workcraft.spreadtoken.STRegister" id="r7" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.8000001" y="-0.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <sdfs-register/>
+        <st-register disable-func="m(r7)&amp;r(l11)" enable-func="(not m(r7))&amp;e(l11)" mark-func="re(r7)&amp;(m(r9)&amp;m(r5)&amp;m(r6)&amp;m(r8)&amp;m(r10)&amp;m(r4))" marked="false" unmark-func="(not re(r7))&amp;(not (m(r9)|m(r5)|m(r6)|m(r8)|m(r10)|m(r4)))"/>
+      </editable>
+      <editable class="workcraft.spreadtoken.STRegister" id="r12" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="0.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <sdfs-register/>
+        <st-register disable-func="m(r12)&amp;r(l5)" enable-func="(not m(r12))&amp;e(l5)" mark-func="re(r12)&amp;m(r2)&amp;(not m(r13))" marked="false" unmark-func="(not re(r12))&amp;(not m(r2))&amp;m(r13)"/>
+      </editable>
+      <editable class="workcraft.spreadtoken.STLogic" id="l6" label="fork" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.8" y="-0.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <st-logic eval-func="m(r3)" reset-func="(not m(r3))"/>
+      </editable>
+      <editable class="workcraft.spreadtoken.STRegister" id="r10" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.0" y="0.6" z="0.1"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <sdfs-register/>
+        <st-register disable-func="m(r10)&amp;r(l6)" enable-func="(not m(r10))&amp;e(l6)" mark-func="re(r10)&amp;m(r3)&amp;(not m(r7))" marked="false" unmark-func="(not re(r10))&amp;(not m(r3))&amp;m(r7)"/>
+      </editable>
+      <editable class="workcraft.spreadtoken.STLogic" id="l11" label="REG Write" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.6" y="-0.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <st-logic eval-func="(e(l10)&amp;e(l15))" reset-func="(r(l10)&amp;r(l15))"/>
+      </editable>
+      <editable class="workcraft.spreadtoken.STRegister" id="r8" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.0" y="0.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <sdfs-register/>
+        <st-register disable-func="m(r8)&amp;r(l6)" enable-func="(not m(r8))&amp;e(l6)" mark-func="re(r8)&amp;m(r3)&amp;(not m(r7))" marked="false" unmark-func="(not re(r8))&amp;(not m(r3))&amp;m(r7)"/>
+      </editable>
+      <editable class="workcraft.spreadtoken.STLogic" id="l13" label="Data Mem." rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.2" y="0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <st-logic eval-func="m(r9)" reset-func="(not m(r9))"/>
+      </editable>
+      <editable class="workcraft.spreadtoken.STLogic" id="l12" label="Arith." rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.2" y="0.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <st-logic eval-func="m(r8)" reset-func="(not m(r8))"/>
+      </editable>
+      <editable class="workcraft.spreadtoken.STLogic" id="l15" label="join" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.4" y="0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <st-logic eval-func="(e(l13)&amp;e(l14))" reset-func="(r(l13)&amp;r(l14))"/>
+      </editable>
+      <editable class="workcraft.spreadtoken.STRegister" id="r5" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.0" y="-0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <sdfs-register/>
+        <st-register disable-func="m(r5)&amp;r(l6)" enable-func="(not m(r5))&amp;e(l6)" mark-func="re(r5)&amp;m(r3)&amp;(not m(r7))" marked="false" unmark-func="(not re(r5))&amp;(not m(r3))&amp;m(r7)"/>
+      </editable>
+      <editable class="workcraft.spreadtoken.STLogic" id="l5" label="Issue" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="-0.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <st-logic eval-func="(e(l3)&amp;e(l4)&amp;e(l2))" reset-func="(r(l3)&amp;r(l4)&amp;r(l2))"/>
+      </editable>
+      <editable class="workcraft.spreadtoken.STLogic" id="l2" label="Flush" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.0" y="-0.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <st-logic eval-func="m(r2)" reset-func="(not m(r2))"/>
+      </editable>
+      <editable class="workcraft.spreadtoken.STRegister" id="r9" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.0" y="0.4" z="0.1"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <sdfs-register/>
+        <st-register disable-func="m(r9)&amp;r(l6)" enable-func="(not m(r9))&amp;e(l6)" mark-func="re(r9)&amp;m(r3)&amp;(not m(r7))" marked="false" unmark-func="(not re(r9))&amp;(not m(r3))&amp;m(r7)"/>
+      </editable>
+      <editable class="workcraft.spreadtoken.STLogic" id="l1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.4" y="-0.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <sdfs-node user-edited="false"/>
+        <st-logic eval-func="m(r1)" reset-func="(not m(r1))"/>
+      </editable>
+    </editable>
+    <editable-connection first="r0" second="l0" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="l0" second="r1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="r1" second="l1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="l1" second="r2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="r2" second="l2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="l2" second="l3" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.31249988" y="0.31249988"/>
+          <vec2 x="-0.3125" y="0.6875"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="l2" second="l4" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="0.31249988" y="0.31249988"/>
+          <vec2 x="0.3125" y="0.6875"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="l3" second="l5" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.25" y="0.25"/>
+          <vec2 x="-0.375" y="0.625"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="l4" second="l5" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="0.31249994" y="0.31249994"/>
+          <vec2 x="0.3125" y="0.6875"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="l2" second="l5" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="l5" second="r3" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="r3" second="l6" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="l6" second="r4" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.25000003" y="0.25000003"/>
+          <vec2 x="-0.24999997" y="0.7500002"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="l6" second="r5" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.124999955" y="0.24999994"/>
+          <vec2 x="-0.19999994" y="0.90000004"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="l6" second="r6" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.074999996" y="0.22500001"/>
+          <vec2 x="-0.22499996" y="0.925"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="r4" second="l9" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="r5" second="l8" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="r6" second="l7" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="l7" second="l10" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.25000012" y="0.25"/>
+          <vec2 x="-0.2500001" y="0.6249998"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="l8" second="l10" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="l9" second="l10" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="0.25000012" y="0.25000006"/>
+          <vec2 x="0.24999999" y="0.62499994"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="l10" second="l11" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.30000013" y="0.15000014"/>
+          <vec2 x="-0.12499994" y="0.75"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="l11" second="r7" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="l6" second="r8" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="0.25000003" y="0.25000003"/>
+          <vec2 x="0.24999997" y="0.7500002"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="l6" second="r9" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="0.099999964" y="0.19999999"/>
+          <vec2 x="0.19999985" y="0.90000004"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="l6" second="r10" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="0.075" y="0.22500001"/>
+          <vec2 x="0.18750003" y="0.93750006"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="r8" second="l12" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="l12" second="l10" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="0.26249993" y="0.08749995"/>
+          <vec2 x="0.07499998" y="0.7749999"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="r9" second="l13" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="r10" second="l14" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="l13" second="l15" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="l14" second="l15" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="0.25000012" y="0.25000003"/>
+          <vec2 x="0.3125" y="0.68749976"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="l15" second="l11" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="0.24999997" y="0.12500001"/>
+          <vec2 x="0.14999993" y="0.70000017"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="l5" second="r12" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="r12" second="r13" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="r13" second="r11" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="r11" second="l16" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="l16" second="r0" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+  </document>
+</workcraft>

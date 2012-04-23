@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workcraft>
+  <options tab="2"/>
+  <editor>
+    <options grid="false" ids="false" labels="true" snap="true"/>
+    <viewstate s="0.82644606" tx="-1.0048136" ty="0.046815217"/>
+  </editor>
+  <document model-uuid="6f704a28-e691-11db-8314-0800200c9a66">
+    <editable class="workcraft.editor.GroupNode" id="_root" label="" rotation="0" selected="false">
+      <transform>
+        <vec3 x="0.0" y="0.0" z="0.0"/>
+        <vec3 x="1.0" y="1.0" z="1.0"/>
+      </transform>
+      <custom-properties/>
+      <editable class="workcraft.gate.Joint" id="g8" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.5" y="-0.3" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con28" index="0" invert="false" state="reset" type="input"/>
+          <contact id="con33" index="1" invert="false" state="reset" type="input"/>
+          <contact id="con29" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.Joint" id="g8_copy_copy_copy_copy" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.7" y="-0.20000008" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con118" index="0" invert="false" state="reset" type="input"/>
+          <contact id="con119" index="1" invert="false" state="reset" type="input"/>
+          <contact id="con120" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.AndGate" id="g7_copy" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.49999997" y="-0.24999997" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con52" index="0" invert="false" state="reset" type="input"/>
+          <contact id="con53" index="1" invert="true" state="reset" type="input"/>
+          <contact id="con54" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.Input" id="ri" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-3.1000001" y="0.14999992" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con5" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.Joint" id="g13_copy_copy" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.59999996" y="0.07500001" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con94" index="0" invert="false" state="reset" type="input"/>
+          <contact id="con95" index="0" invert="false" state="reset" type="output"/>
+          <contact id="con96" index="1" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.CElement" id="g6" label="" rotation="3" selected="false">
+        <transform>
+          <vec3 x="0.7" y="-0.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con22" index="0" invert="true" state="reset" type="input"/>
+          <contact id="con23" index="1" invert="false" state="reset" type="input"/>
+          <contact id="con24" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.AndGate" id="g7" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.3" y="-0.275" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con25" index="0" invert="false" state="reset" type="input"/>
+          <contact id="con26" index="1" invert="true" state="reset" type="input"/>
+          <contact id="con27" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.Joint" id="g12_copy_copy_copy" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.8749999" y="0.12499991" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con145" index="0" invert="false" state="reset" type="input"/>
+          <contact id="con103" index="0" invert="false" state="reset" type="output"/>
+          <contact id="con104" index="1" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.Output" id="lo" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="1.1" y="0.024999991" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con4" index="0" invert="false" state="reset" type="input"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.Joint" id="g8_copy_copy" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.0999999" y="-0.25" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con70" index="0" invert="false" state="reset" type="input"/>
+          <contact id="con71" index="1" invert="false" state="reset" type="input"/>
+          <contact id="con72" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.Joint" id="g10_copy_copy" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.1999999" y="0.04999999" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con91" index="0" invert="false" state="reset" type="input"/>
+          <contact id="con92" index="0" invert="false" state="reset" type="output"/>
+          <contact id="con93" index="1" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.CElement" id="g6_copy_copy_copy" label="" rotation="3" selected="false">
+        <transform>
+          <vec3 x="-1.6999999" y="-0.12499995" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con88" index="0" invert="true" state="reset" type="input"/>
+          <contact id="con89" index="1" invert="false" state="reset" type="input"/>
+          <contact id="con90" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.AndGate" id="g11_copy_copy_copy" label="" rotation="2" selected="false">
+        <transform>
+          <vec3 x="-1.6" y="0.09999994" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con114" index="0" invert="true" state="reset" type="input"/>
+          <contact id="con115" index="1" invert="false" state="reset" type="input"/>
+          <contact id="con116" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.CElement" id="g9_copy_copy_copy" label="" rotation="1" selected="false">
+        <transform>
+          <vec3 x="-1.8999999" y="-0.024999991" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con97" index="0" invert="true" state="reset" type="input"/>
+          <contact id="con98" index="1" invert="false" state="reset" type="input"/>
+          <contact id="con99" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.Joint" id="g8_copy_copy_copy" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.8999999" y="-0.22499993" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con105" index="0" invert="false" state="reset" type="input"/>
+          <contact id="con106" index="1" invert="false" state="reset" type="input"/>
+          <contact id="con107" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.CElement" id="g9" label="" rotation="1" selected="false">
+        <transform>
+          <vec3 x="0.5" y="-0.10000001" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con30" index="0" invert="true" state="reset" type="input"/>
+          <contact id="con31" index="1" invert="false" state="reset" type="input"/>
+          <contact id="con32" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.Joint" id="g12" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.525" y="0.049999975" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con69" index="0" invert="false" state="reset" type="input"/>
+          <contact id="con39" index="0" invert="false" state="reset" type="output"/>
+          <contact id="con40" index="1" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.CElement" id="g6_copy" label="" rotation="3" selected="false">
+        <transform>
+          <vec3 x="-0.09999994" y="-0.17499998" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con49" index="0" invert="true" state="reset" type="input"/>
+          <contact id="con50" index="1" invert="false" state="reset" type="input"/>
+          <contact id="con51" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.Joint" id="g10" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.4" y="-0.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con45" index="0" invert="false" state="reset" type="input"/>
+          <contact id="con34" index="0" invert="false" state="reset" type="output"/>
+          <contact id="con35" index="1" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.AndGate" id="g7_copy_copy_copy_copy" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.9" y="-0.17500007" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con124" index="0" invert="false" state="reset" type="input"/>
+          <contact id="con125" index="1" invert="true" state="reset" type="input"/>
+          <contact id="con126" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.Output" id="ro" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-3.1000001" y="-0.17500007" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con6" index="0" invert="false" state="reset" type="input"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.Joint" id="g13" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="1.0" y="0.024999991" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con42" index="0" invert="false" state="reset" type="input"/>
+          <contact id="con43" index="0" invert="false" state="reset" type="output"/>
+          <contact id="con44" index="1" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.Joint" id="g12_copy_copy" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.0749999" y="0.09999994" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con85" index="0" invert="false" state="reset" type="input"/>
+          <contact id="con86" index="0" invert="false" state="reset" type="output"/>
+          <contact id="con87" index="1" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.AndGate" id="g11_copy_copy" label="" rotation="2" selected="false">
+        <transform>
+          <vec3 x="-0.8" y="0.074999966" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con100" index="0" invert="true" state="reset" type="input"/>
+          <contact id="con101" index="1" invert="false" state="reset" type="input"/>
+          <contact id="con102" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.CElement" id="g9_copy" label="" rotation="1" selected="false">
+        <transform>
+          <vec3 x="-0.29999992" y="-0.07500001" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con55" index="0" invert="true" state="reset" type="input"/>
+          <contact id="con56" index="1" invert="false" state="reset" type="input"/>
+          <contact id="con57" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.Joint" id="g13_copy_copy_copy" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.3999999" y="0.09999994" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con108" index="0" invert="false" state="reset" type="input"/>
+          <contact id="con109" index="0" invert="false" state="reset" type="output"/>
+          <contact id="con110" index="1" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.AndGate" id="g11_copy_copy_copy_copy" label="" rotation="2" selected="false">
+        <transform>
+          <vec3 x="-2.4" y="0.12499991" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con139" index="0" invert="true" state="reset" type="input"/>
+          <contact id="con140" index="1" invert="false" state="reset" type="input"/>
+          <contact id="con141" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.AndGate" id="g7_copy_copy_copy" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.3" y="-0.225" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con79" index="0" invert="false" state="reset" type="input"/>
+          <contact id="con80" index="1" invert="true" state="reset" type="input"/>
+          <contact id="con81" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.Joint" id="g10_copy_copy_copy" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.0" y="0.074999966" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con111" index="0" invert="false" state="reset" type="input"/>
+          <contact id="con112" index="0" invert="false" state="reset" type="output"/>
+          <contact id="con113" index="1" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.AndGate" id="g11" label="" rotation="2" selected="false">
+        <transform>
+          <vec3 x="0.8" y="0.024999984" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con36" index="0" invert="true" state="reset" type="input"/>
+          <contact id="con37" index="1" invert="false" state="reset" type="input"/>
+          <contact id="con38" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.CElement" id="g6_copy_copy" label="" rotation="3" selected="false">
+        <transform>
+          <vec3 x="-0.8999998" y="-0.14999998" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con76" index="0" invert="true" state="reset" type="input"/>
+          <contact id="con77" index="1" invert="false" state="reset" type="input"/>
+          <contact id="con78" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.Joint" id="g12_copy" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.27499995" y="0.07499995" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con117" index="0" invert="false" state="reset" type="input"/>
+          <contact id="con58" index="0" invert="false" state="reset" type="output"/>
+          <contact id="con59" index="1" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.Joint" id="g10_copy_copy_copy_copy" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.8000002" y="0.099999934" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con133" index="0" invert="false" state="reset" type="input"/>
+          <contact id="con134" index="0" invert="false" state="reset" type="output"/>
+          <contact id="con135" index="1" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.AndGate" id="g7_copy_copy" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.1" y="-0.19999996" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con73" index="0" invert="false" state="reset" type="input"/>
+          <contact id="con74" index="1" invert="true" state="reset" type="input"/>
+          <contact id="con75" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.Joint" id="g8_copy" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.29999992" y="-0.27499995" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con46" index="0" invert="false" state="reset" type="input"/>
+          <contact id="con47" index="1" invert="false" state="reset" type="input"/>
+          <contact id="con48" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.Input" id="li" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="1.1" y="-0.3" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con3" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.Joint" id="g13_copy" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.20000005" y="0.049999975" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con63" index="0" invert="false" state="reset" type="input"/>
+          <contact id="con64" index="0" invert="false" state="reset" type="output"/>
+          <contact id="con65" index="1" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.Joint" id="g10_copy" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.40000007" y="0.024999999" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con60" index="0" invert="false" state="reset" type="input"/>
+          <contact id="con61" index="0" invert="false" state="reset" type="output"/>
+          <contact id="con62" index="1" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.CElement" id="g9_copy_copy_copy_copy" label="" rotation="1" selected="false">
+        <transform>
+          <vec3 x="-2.7" y="-8.940697E-8" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con127" index="0" invert="true" state="reset" type="input"/>
+          <contact id="con128" index="1" invert="false" state="reset" type="input"/>
+          <contact id="con129" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.CElement" id="g9_copy_copy" label="" rotation="1" selected="false">
+        <transform>
+          <vec3 x="-1.0999999" y="-0.05000002" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con82" index="0" invert="true" state="reset" type="input"/>
+          <contact id="con83" index="1" invert="false" state="reset" type="input"/>
+          <contact id="con84" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.AndGate" id="g11_copy" label="" rotation="2" selected="false">
+        <transform>
+          <vec3 x="-0.0" y="0.049999975" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con66" index="0" invert="true" state="reset" type="input"/>
+          <contact id="con67" index="1" invert="false" state="reset" type="input"/>
+          <contact id="con68" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.CElement" id="g6_copy_copy_copy_copy" label="" rotation="3" selected="false">
+        <transform>
+          <vec3 x="-2.5" y="-0.099999994" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con121" index="0" invert="true" state="reset" type="input"/>
+          <contact id="con122" index="1" invert="false" state="reset" type="input"/>
+          <contact id="con123" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.Joint" id="g12_copy_copy_copy_copy" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.675" y="0.14999992" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con146" index="0" invert="false" state="reset" type="input"/>
+          <contact id="con131" index="0" invert="false" state="reset" type="output"/>
+          <contact id="con132" index="1" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.Joint" id="g13_copy_copy_copy_copy" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.2" y="0.12499991" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <gate delay-max="2.0" delay-min="1.0" radius="0">
+          <contact id="con136" index="0" invert="false" state="reset" type="input"/>
+          <contact id="con137" index="0" invert="false" state="reset" type="output"/>
+          <contact id="con138" index="1" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+    </editable>
+    <editable-connection first="con3" second="con23" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con22" second="con28" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con29" second="con25" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con32" second="con33" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con34" second="con31" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con35" second="con26" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="1">
+          <vec2 x="0.0" y="1.0"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con24" second="con37" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con39" second="con30" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con40" second="con36" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con38" second="con42" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con43" second="con4" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con44" second="con45" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="2">
+          <vec2 x="0.0" y="-0.10000001"/>
+          <vec2 x="1.0" y="-0.10000001"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con49" second="con46" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con48" second="con52" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con57" second="con47" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con61" second="con56" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con62" second="con53" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="1">
+          <vec2 x="0.0" y="1.0"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con51" second="con67" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con58" second="con55" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con59" second="con66" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con68" second="con63" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con65" second="con60" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="2">
+          <vec2 x="0.0" y="-0.10000001"/>
+          <vec2 x="1.0" y="-0.10000001"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con50" second="con27" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con64" second="con69" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con76" second="con70" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con72" second="con79" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con84" second="con71" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con92" second="con83" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con93" second="con80" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="1">
+          <vec2 x="0.0" y="1.0"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con78" second="con101" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con86" second="con82" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con87" second="con100" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con102" second="con94" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con96" second="con91" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="2">
+          <vec2 x="0.0" y="-0.10000001"/>
+          <vec2 x="1.0" y="-0.10000001"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con88" second="con105" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con107" second="con73" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con99" second="con106" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con112" second="con98" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con113" second="con74" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="1">
+          <vec2 x="0.0" y="1.0"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con90" second="con115" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con103" second="con97" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con104" second="con114" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con116" second="con108" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con110" second="con111" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="2">
+          <vec2 x="0.0" y="-0.10000001"/>
+          <vec2 x="1.0" y="-0.10000001"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con89" second="con81" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con109" second="con85" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con95" second="con117" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con54" second="con77" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con121" second="con118" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con120" second="con124" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con129" second="con119" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con134" second="con128" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con135" second="con125" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="1">
+          <vec2 x="0.0" y="1.0"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con123" second="con140" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con131" second="con127" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con132" second="con139" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con141" second="con136" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con138" second="con133" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="2">
+          <vec2 x="0.0" y="-0.10000001"/>
+          <vec2 x="1.0" y="-0.10000001"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con137" second="con145" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con75" second="con122" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con126" second="con6" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con5" second="con146" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+  </document>
+</workcraft>

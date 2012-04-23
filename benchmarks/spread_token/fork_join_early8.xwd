@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workcraft>
+<options tab="2"/>
+<editor>
+<options grid="false" ids="true" labels="true" snap="true"/>
+<viewstate s="0.9090909" tx="-0.40367094" ty="-0.009971231"/>
+</editor>
+<document model-uuid="a57b3350-73d3-11db-9fe1-0800200c9a66">
+<editable class="workcraft.editor.GroupNode" id="_root" label="" selected="false">
+<transform>
+<vec3 x="0.0" y="0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<editable class="workcraft.spreadtoken.EditableSTRegister" id="r7" label="" selected="false">
+<transform>
+<vec3 x="0.1" y="-0.2" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0"/>
+</editable>
+<editable class="workcraft.spreadtoken.EditableSTLogic" id="l20" label="" selected="false">
+<transform>
+<vec3 x="-0.8" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<st-logic eval-func="e(l19)" reset-func="r(l19)"/>
+</editable>
+<editable class="workcraft.spreadtoken.EditableSTRegister" id="r2" label="" selected="false">
+<transform>
+<vec3 x="-1.8000001" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0"/>
+</editable>
+<editable class="workcraft.spreadtoken.EditableSTLogic" id="l17" label="" selected="false">
+<transform>
+<vec3 x="5.9604645E-8" y="0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<st-logic eval-func="m(r4)" reset-func="(not m(r4))"/>
+</editable>
+<editable class="workcraft.spreadtoken.EditableSTRegister" id="r0" label="" selected="false">
+<transform>
+<vec3 x="0.9" y="0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0"/>
+</editable>
+<editable class="workcraft.spreadtoken.EditableSTRegister" id="r4" label="" selected="false">
+<transform>
+<vec3 x="0.30000013" y="0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0"/>
+</editable>
+<editable class="workcraft.spreadtoken.EditableSTLogic" id="l4" label="" selected="false">
+<transform>
+<vec3 x="-0.39999998" y="0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<st-logic eval-func="m(r5) and (e(l3) | e(l11))" reset-func="r(l3)&amp;r(l11)&amp;(not m(r5))"/>
+</editable>
+<editable class="workcraft.spreadtoken.EditableSTLogic" id="l16" label="" selected="false">
+<transform>
+<vec3 x="0.50000006" y="0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<st-logic eval-func="e(l2)" reset-func="r(l2)"/>
+</editable>
+<editable class="workcraft.spreadtoken.EditableSTLogic" id="l19" label="" selected="false">
+<transform>
+<vec3 x="-0.6" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<st-logic eval-func="e(l4)" reset-func="r(l4)"/>
+</editable>
+<editable class="workcraft.spreadtoken.EditableSTLogic" id="l1" label="" selected="false">
+<transform>
+<vec3 x="0.50000006" y="-0.2" z="0.10000002"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<st-logic eval-func="e(l2)" reset-func="r(l2)"/>
+</editable>
+<editable class="workcraft.spreadtoken.EditableSTLogic" id="l3" label="" selected="false">
+<transform>
+<vec3 x="-0.29999995" y="-0.2" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<st-logic eval-func="e(l10)" reset-func="r(l10)"/>
+</editable>
+<editable class="workcraft.spreadtoken.EditableSTLogic" id="l6" label="" selected="false">
+<transform>
+<vec3 x="-1.4000001" y="0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<st-logic eval-func="e(l5)" reset-func="r(l5)"/>
+</editable>
+<editable class="workcraft.spreadtoken.EditableSTRegister" id="r8" label="" selected="false">
+<transform>
+<vec3 x="-1.0" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0"/>
+</editable>
+<editable class="workcraft.spreadtoken.EditableSTLogic" id="l2" label="" selected="false">
+<transform>
+<vec3 x="0.70000017" y="0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<st-logic eval-func="m(r0)" reset-func="(not m(r0))"/>
+</editable>
+<editable class="workcraft.spreadtoken.EditableSTLogic" id="l11" label="" selected="false">
+<transform>
+<vec3 x="0.1" y="0.2" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<st-logic eval-func="e(l2)" reset-func="r(l2)"/>
+</editable>
+<editable class="workcraft.spreadtoken.EditableSTRegister" id="r5" label="" selected="false">
+<transform>
+<vec3 x="-0.19999999" y="0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0"/>
+</editable>
+<editable class="workcraft.spreadtoken.EditableSTLogic" id="l10" label="" selected="false">
+<transform>
+<vec3 x="-0.100000024" y="-0.2" z="0.10000002"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<st-logic eval-func="m(r7)" reset-func="(not m(r7))"/>
+</editable>
+<editable class="workcraft.spreadtoken.EditableSTLogic" id="l7" label="" selected="false">
+<transform>
+<vec3 x="-1.6000001" y="0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<st-logic eval-func="e(l6)" reset-func="r(l6)"/>
+</editable>
+<editable class="workcraft.spreadtoken.EditableSTLogic" id="l8" label="" selected="false">
+<transform>
+<vec3 x="0.3" y="-0.2" z="0.10000002"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<st-logic eval-func="e(l1)" reset-func="r(l1)"/>
+</editable>
+<editable class="workcraft.spreadtoken.EditableSTLogic" id="l5" label="" selected="false">
+<transform>
+<vec3 x="-1.2" y="0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<st-logic eval-func="m(r8)" reset-func="(not m(r8))"/>
+</editable>
+</editable>
+<editable-connection first="l3" second="l4" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="l5" second="l6" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="l6" second="l7" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="l7" second="r2" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="l1" second="l8" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="l10" second="l3" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="r0" second="l2" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="l2" second="l11" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="l11" second="l4" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="l2" second="l1" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="l2" second="l16" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="l16" second="r4" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="r4" second="l17" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="l17" second="r5" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="r5" second="l4" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="l8" second="r7" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="r7" second="l10" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="l4" second="l19" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="l19" second="l20" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="l20" second="r8" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="r8" second="l5" selected="false">
+<connection/>
+</editable-connection>
+</document>
+</workcraft>

@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workcraft>
+<options tab="2"/>
+<editor>
+<options grid="true" ids="true" labels="true" snap="true"/>
+<viewstate s="0.75131476" tx="-0.6828376" ty="-0.37136304"/>
+</editor>
+<document model-uuid="65f89260-641d-11db-bd13-0800200c9a66">
+<editable class="workcraft.editor.GroupNode" id="_root" label="" selected="false">
+<transform>
+<vec3 x="0.0" y="0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<editable class="workcraft.petri.EditablePetriTransition" id="t9_copy" label="" selected="false">
+<transform>
+<vec3 x="-0.39999998" y="0.100000024" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition/>
+</editable>
+<editable class="workcraft.petri.EditablePetriPlace" id="p6_copy_copy" label="" selected="false">
+<transform>
+<vec3 x="-1.6" y="-0.7" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0"/>
+</editable>
+<editable class="workcraft.petri.EditablePetriTransition" id="t3_copy" label="" selected="false">
+<transform>
+<vec3 x="-0.2" y="-0.1" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition/>
+</editable>
+<editable class="workcraft.petri.EditablePetriPlace" id="p9" label="" selected="false">
+<transform>
+<vec3 x="1.7" y="0.1" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="1"/>
+</editable>
+<editable class="workcraft.petri.EditablePetriPlace" id="s1_f" label="" selected="false">
+<transform>
+<vec3 x="1.3000001" y="-0.5" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0"/>
+</editable>
+<editable class="workcraft.petri.EditablePetriTransition" id="t4_copy_copy" label="move to s2" selected="false">
+<transform>
+<vec3 x="-2.1000001" y="-1.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition/>
+</editable>
+<editable class="workcraft.petri.EditablePetriTransition" id="t0_copy_copy" label="read s1" selected="false">
+<transform>
+<vec3 x="-2.1" y="-0.7" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition/>
+</editable>
+<editable class="workcraft.petri.EditablePetriTransition" id="t10" label="" selected="false">
+<transform>
+<vec3 x="1.1" y="0.3" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition/>
+</editable>
+<editable class="workcraft.petri.EditablePetriTransition" id="t9_copy_copy" label="" selected="false">
+<transform>
+<vec3 x="-1.8000001" y="0.3" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition/>
+</editable>
+<editable class="workcraft.petri.EditablePetriTransition" id="t2_copy_copy" label="" selected="false">
+<transform>
+<vec3 x="-2.5" y="-0.5" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition/>
+</editable>
+<editable class="workcraft.petri.EditablePetriPlace" id="s1_nr" label="" selected="false">
+<transform>
+<vec3 x="1.0" y="-0.3" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="1"/>
+</editable>
+<editable class="workcraft.petri.EditablePetriPlace" id="p6_copy" label="" selected="false">
+<transform>
+<vec3 x="0.100000024" y="-0.7" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0"/>
+</editable>
+<editable class="workcraft.petri.EditablePetriPlace" id="s1_e_copy" label="" selected="false">
+<transform>
+<vec3 x="1.1920929E-7" y="-0.3" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="1"/>
+</editable>
+<editable class="workcraft.petri.EditablePetriTransition" id="t3_copy_copy" label="" selected="false">
+<transform>
+<vec3 x="-1.9999999" y="-0.100000024" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition/>
+</editable>
+<editable class="workcraft.petri.EditablePetriPlace" id="s1_f_copy_copy" label="" selected="false">
+<transform>
+<vec3 x="-1.9" y="-0.5" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0"/>
+</editable>
+<editable class="workcraft.petri.EditablePetriTransition" id="t4" label="move to s2" selected="false">
+<transform>
+<vec3 x="1.1" y="-1.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition/>
+</editable>
+<editable class="workcraft.petri.EditablePetriTransition" id="t4_copy" label="move to s2" selected="false">
+<transform>
+<vec3 x="-0.39999998" y="-1.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition/>
+</editable>
+<editable class="workcraft.petri.EditablePetriPlace" id="s1_e" label="" selected="false">
+<transform>
+<vec3 x="1.5" y="-0.3" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="1"/>
+</editable>
+<editable class="workcraft.petri.EditablePetriTransition" id="t0" label="read s1" selected="false">
+<transform>
+<vec3 x="1.1" y="-0.7" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition/>
+</editable>
+<editable class="workcraft.petri.EditablePetriPlace" id="s1_nr_copy" label="" selected="false">
+<transform>
+<vec3 x="-0.49999988" y="-0.3" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="1"/>
+</editable>
+<editable class="workcraft.petri.EditablePetriPlace" id="s1_e_copy_copy" label="" selected="false">
+<transform>
+<vec3 x="-1.6999999" y="-0.3" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="1"/>
+</editable>
+<editable class="workcraft.petri.EditablePetriPlace" id="p9_copy" label="" selected="false">
+<transform>
+<vec3 x="0.3" y="0.1" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0"/>
+</editable>
+<editable class="workcraft.petri.EditablePetriTransition" id="t10_copy_copy" label="" selected="false">
+<transform>
+<vec3 x="-1.8000001" y="0.5" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition/>
+</editable>
+<editable class="workcraft.petri.EditablePetriPlace" id="s1_f_copy" label="" selected="false">
+<transform>
+<vec3 x="-0.19999987" y="-0.5" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0"/>
+</editable>
+<editable class="workcraft.petri.EditablePetriPlace" id="s1_nr_copy_copy" label="" selected="false">
+<transform>
+<vec3 x="-2.1999998" y="-0.3" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="1"/>
+</editable>
+<editable class="workcraft.petri.EditablePetriPlace" id="p6" label="" selected="false">
+<transform>
+<vec3 x="1.6" y="-0.7" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="1"/>
+</editable>
+<editable class="workcraft.petri.EditablePetriPlace" id="s1_r_copy_copy" label="" selected="false">
+<transform>
+<vec3 x="-2.2999997" y="-0.6" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0"/>
+</editable>
+<editable class="workcraft.petri.EditablePetriTransition" id="t10_copy" label="" selected="false">
+<transform>
+<vec3 x="-0.39999998" y="0.3" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition/>
+</editable>
+<editable class="workcraft.petri.EditablePetriTransition" id="t9" label="" selected="false">
+<transform>
+<vec3 x="1.1" y="0.1" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition/>
+</editable>
+<editable class="workcraft.petri.EditablePetriPlace" id="s1_r" label="" selected="false">
+<transform>
+<vec3 x="0.90000004" y="-0.6" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0"/>
+</editable>
+<editable class="workcraft.petri.EditablePetriTransition" id="t3" label="" selected="false">
+<transform>
+<vec3 x="1.2" y="-0.1" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition/>
+</editable>
+<editable class="workcraft.petri.EditablePetriTransition" id="t2_copy" label="" selected="false">
+<transform>
+<vec3 x="-0.79999983" y="-0.5" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition/>
+</editable>
+<editable class="workcraft.petri.EditablePetriTransition" id="t2" label="" selected="false">
+<transform>
+<vec3 x="0.7" y="-0.5" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition/>
+</editable>
+<editable class="workcraft.petri.EditablePetriPlace" id="p9_copy_copy" label="" selected="false">
+<transform>
+<vec3 x="-1.4000001" y="0.100000024" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0"/>
+</editable>
+<editable class="workcraft.petri.EditablePetriPlace" id="s1_r_copy" label="" selected="false">
+<transform>
+<vec3 x="-0.5999998" y="-0.6" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0"/>
+</editable>
+<editable class="workcraft.petri.EditablePetriTransition" id="t0_copy" label="read s1" selected="false">
+<transform>
+<vec3 x="-0.39999998" y="-0.7" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition/>
+</editable>
+</editable>
+<editable-connection first="s1_f" second="t0" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p6" second="t0" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="s1_nr" second="t0" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t0" second="s1_r" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t2" second="s1_nr" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t2" second="s1_e" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="s1_r" second="t2" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p9" second="t3" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="s1_e" second="t3" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="s1_nr" second="t3" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t3" second="s1_f" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="s1_e" second="t4" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p6" second="t4" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t2" second="p6" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t3" second="s1_nr" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t4" second="s1_e" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="s1_f" second="t9" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t9" second="s1_f" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="s1_r" second="t10" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t10" second="s1_r" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p9" second="t9" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p9" second="t10" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t3" second="p9" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="s1_f_copy" second="t0_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p6_copy" second="t0_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="s1_nr_copy" second="t0_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t0_copy" second="s1_r_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t2_copy" second="s1_nr_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t2_copy" second="s1_e_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="s1_r_copy" second="t2_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p9_copy" second="t3_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="s1_e_copy" second="t3_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="s1_nr_copy" second="t3_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t3_copy" second="s1_f_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="s1_e_copy" second="t4_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p6_copy" second="t4_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t2_copy" second="p6_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t3_copy" second="s1_nr_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t4_copy" second="s1_e_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="s1_f_copy" second="t9_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t9_copy" second="s1_f_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="s1_r_copy" second="t10_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t10_copy" second="s1_r_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p9_copy" second="t9_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p9_copy" second="t10_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t3_copy" second="p9_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t4" second="p6_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t9" second="p9_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t10" second="p9_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="s1_f_copy_copy" second="t0_copy_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p6_copy_copy" second="t0_copy_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="s1_nr_copy_copy" second="t0_copy_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t0_copy_copy" second="s1_r_copy_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t2_copy_copy" second="s1_nr_copy_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t2_copy_copy" second="s1_e_copy_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="s1_r_copy_copy" second="t2_copy_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p9_copy_copy" second="t3_copy_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="s1_e_copy_copy" second="t3_copy_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="s1_nr_copy_copy" second="t3_copy_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t3_copy_copy" second="s1_f_copy_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="s1_e_copy_copy" second="t4_copy_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p6_copy_copy" second="t4_copy_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t2_copy_copy" second="p6_copy_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t3_copy_copy" second="s1_nr_copy_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t4_copy_copy" second="s1_e_copy_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="s1_f_copy_copy" second="t9_copy_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t9_copy_copy" second="s1_f_copy_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="s1_r_copy_copy" second="t10_copy_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t10_copy_copy" second="s1_r_copy_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p9_copy_copy" second="t9_copy_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p9_copy_copy" second="t10_copy_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t3_copy_copy" second="p9_copy_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t4_copy" second="p6_copy_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t9_copy" second="p9_copy_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t10_copy" second="p9_copy_copy" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t4_copy_copy" second="p6" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t9_copy_copy" second="p9" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t10_copy_copy" second="p9" selected="false">
+<connection/>
+</editable-connection>
+</document>
+</workcraft>

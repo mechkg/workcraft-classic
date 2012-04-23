@@ -1,0 +1,35 @@
+<mapping sourceUuid="6f704a28-e691-11db-8314-0800200c9a66" preMap="prepareMap">
+    <ignore sourceClass="workcraft.gate.Joint"/>
+    <expansion sourceClass="workcraft.gate.AndGate">
+         <cycle suffix="sig" initializer="isSet" set="getSetFunction" reset="getResetFunction" plusTag="getPlusTag" minusTag="getMinusTag"/>
+    </expansion>
+    <expansion sourceClass="workcraft.gate.OrGate">
+         <cycle suffix="sig" initializer="isSet" set="getSetFunction" reset="getResetFunction" plusTag="getPlusTag" minusTag="getMinusTag"/>
+    </expansion>
+    <expansion sourceClass="workcraft.gate.XorGate">
+         <cycle suffix="sig" initializer="isSet" set="getSetFunction" reset="getResetFunction" plusTag="getPlusTag" minusTag="getMinusTag"/>
+    </expansion>
+    <expansion sourceClass="workcraft.gate.CElement">
+         <cycle suffix="sig" initializer="isSet" set="getSetFunction" reset="getResetFunction" plusTag="getPlusTag" minusTag="getMinusTag"/>
+    </expansion>
+    <expansion sourceClass="workcraft.gate.NotGate">
+         <cycle suffix="sig" initializer="isSet" set="getSetFunction" reset="getResetFunction" plusTag="getPlusTag" minusTag="getMinusTag"/>
+    </expansion>
+    <expansion sourceClass="workcraft.gate.ComplexGate">
+         <cycle suffix="sig" initializer="isSet" set="getSetFunction" reset="getResetFunction" plusTag="getPlusTag" minusTag="getMinusTag"/>
+    </expansion>
+    <expansion sourceClass="workcraft.gate.Input">
+         <cycle suffix="sig" initializer="isSet" set="getSetFunction" reset="getResetFunction" plusTag="getPlusTag" minusTag="getMinusTag"/>
+    </expansion>
+    <expansion sourceClass="workcraft.gate.Output">
+         <cycle suffix="sig" initializer="isSet" set="getSetFunction" reset="getResetFunction" plusTag="getPlusTag" minusTag="getMinusTag"/>
+    </expansion>
+
+    <expansion sourceClass="workcraft.gate.MEElement">
+         <cycle suffix="A_sig" initializer="isSetA" set="getSetFunctionA" reset="getResetFunctionA" plusTag="getPlusTag" minusTag="getMinusTag"/>
+         <cycle suffix="B_sig" initializer="isSetB" set="getSetFunctionB" reset="getResetFunctionB" plusTag="getPlusTag" minusTag="getMinusTag"/>
+    </expansion>
+
+    <predicate token="s" suffix="sig1"/>
+    <predicate token="r" suffix="sig0"/>
+</mapping>

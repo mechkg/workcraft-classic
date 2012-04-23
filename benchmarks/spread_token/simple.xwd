@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workcraft>
+<options tab="2"/>
+<editor>
+<options grid="true" ids="true" labels="true" snap="true"/>
+<viewstate s="1.9487174" tx="0.014124908" ty="0.01023341"/>
+</editor>
+<document model-uuid="a57b3350-73d3-11db-9fe1-0800200c9a66">
+<editable class="workcraft.editor.GroupNode" id="_root" label="" selected="false">
+<transform>
+<vec3 x="0.0" y="0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<editable class="workcraft.spreadtoken.STRegister" id="r1" label="" selected="false">
+<transform>
+<vec3 x="-0.20000002" y="0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<sdfs-node user-edited="false"/>
+<sdfs-register/>
+<st-register disable-func="m(r1)&amp;r(l0)" enable-func="(not m(r1))&amp;e(l0)" mark-func="re(r1)&amp;m(r0)" marked="false" unmark-func="(not re(r1))&amp;(not m(r0))"/>
+</editable>
+<editable class="workcraft.spreadtoken.STRegister" id="r0" label="" selected="false">
+<transform>
+<vec3 x="0.19999999" y="0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<sdfs-node user-edited="false"/>
+<sdfs-register/>
+<st-register disable-func="m(r0)" enable-func="(not m(r0))" mark-func="re(r0)&amp;(not m(r1))" marked="false" unmark-func="(not re(r0))&amp;m(r1)"/>
+</editable>
+<editable class="workcraft.spreadtoken.STLogic" id="l0" label="" selected="false">
+<transform>
+<vec3 x="-0.0" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<sdfs-node user-edited="false"/>
+<st-logic eval-func="m(r0)" reset-func="(not m(r0))"/>
+</editable>
+</editable>
+<editable-connection first="r0" second="l0" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="l0" second="r1" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+</document>
+</workcraft>

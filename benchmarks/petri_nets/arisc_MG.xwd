@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workcraft>
+  <options tab="0"/>
+  <editor>
+    <options grid="false" ids="false" labels="true" snap="false"/>
+    <viewstate s="0.6209213" tx="-0.30425176" ty="0.2889723"/>
+  </editor>
+  <document model-uuid="4fbdb830-dba3-11db-8314-0800200c9a66">
+    <editable class="workcraft.editor.GroupNode" id="_root" label="" rotation="0" selected="false">
+      <transform>
+        <vec3 x="0.0" y="0.0" z="0.0"/>
+        <vec3 x="1.0" y="1.0" z="1.0"/>
+      </transform>
+      <editable class="workcraft.mg.MGTransition" id="t12" label="r5" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.0" y="-0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p22" label="r2-f/l2,l4,l5" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.073379286" y="0.36823207" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="900.0" tokens="0"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p31" label="r11-e/l16" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.95" y="0.3" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="300.0" tokens="1"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p37" label="r12-e/" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.20689654" y="0.7207183" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="0.0" tokens="1"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p11" label="r3-e/l6" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.8723247" y="0.21380302" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="300.0" tokens="1"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p23" label="r2-e/l2,l4,l5" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.20386204" y="0.4077348" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="900.0" tokens="1"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p35" label="r4-e/l9,l10,l11" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.3593081" y="-0.035170346" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="900.0" tokens="1"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p2" label="r6-f/l7,l10,l11" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.4667577" y="-0.44085965" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="900.0" tokens="0"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p7" label="r3-e/l6" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.8489592" y="-0.18730208" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="300.0" tokens="1"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p12" label="r3-f/l6" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.8389454" y="0.32410693" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="300.0" tokens="0"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p18" label="r2-f/l2,l3,l5" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.43448275" y="0.3955801" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="900.0" tokens="0"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p27" label="r2-e/l2,l5" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.16634488" y="0.40469614" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="600.0" tokens="1"/>
+      </editable>
+      <editable class="workcraft.mg.MGTransition" id="t1" label="r6" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.98581445" y="-0.65860057" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p39" label="r10-e/l14,l15,l11" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.607584" y="0.62781334" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="900.0" tokens="1"/>
+      </editable>
+      <editable class="workcraft.mg.MGTransition" id="t13" label="r9" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.993204" y="0.58780897" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.mg.MGTransition" id="t4" label="r1" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.6" y="-0.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p20" label="r2-f/l2,l4,l5" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.14344828" y="-0.5276243" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="900.0" tokens="0"/>
+      </editable>
+      <editable class="workcraft.mg.MGTransition" id="t6" label="r13" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.49517238" y="0.77237576" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p15" label="r3-e/l6" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.7118937" y="0.6593016" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="300.0" tokens="1"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p33" label="r13-e/" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.74399996" y="0.73591167" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="0.0" tokens="1"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p42" label="r5-f/l8,l10,l11" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.4052017" y="-0.2262575" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="900.0" tokens="0"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p44" label="r9-f/l13,l15,l11" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.4227564" y="0.37366962" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="900.0" tokens="0"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p40" label="r8-f/l12,l10,l11" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.389653" y="0.27698445" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="900.0" tokens="0"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p43" label="r5-e/l8,l10,l11" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.3903223" y="-0.12788856" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="900.0" tokens="1"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p4" label="r3-f/l6" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.89235234" y="-0.08368328" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="300.0" tokens="0"/>
+      </editable>
+      <editable class="workcraft.mg.MGTransition" id="t7" label="r4" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.0" y="-0.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p8" label="r3-f/l6" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.73880744" y="-0.48813093" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="300.0" tokens="0"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p24" label="r2-f/l2,l5" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.21793114" y="0.052209936" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="600.0" tokens="0"/>
+      </editable>
+      <editable class="workcraft.mg.MGTransition" id="t2" label="r3" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.6" y="-0.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p28" label="r1-f/l1" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.4" y="-0.05" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="300.0" tokens="0"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p34" label="r4-f/l9,l10,l11" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.3510323" y="0.05598992" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="900.0" tokens="0"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p14" label="r3-f/l6" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.76217294" y="0.5614275" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="300.0" tokens="0"/>
+      </editable>
+      <editable class="workcraft.mg.MGTransition" id="t0" label="r0" rotation="0" selected="false">
+        <transform>
+          <vec3 x="1.0" y="-0.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p38" label="r10-f/l14,l15,l11" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.5441358" y="0.54494035" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="900.0" tokens="0"/>
+      </editable>
+      <editable class="workcraft.mg.MGTransition" id="t9" label="r12" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.026758641" y="0.78756917" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p17" label="r2-e/l2,l3,l5" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.1677242" y="-0.12458563" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="900.0" tokens="1"/>
+      </editable>
+      <editable class="workcraft.mg.MGTransition" id="t10" label="r10" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.993204" y="0.787809" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p45" label="r9-e/l13,l15,l11" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.4806875" y="0.459305" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="900.0" tokens="1"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p29" label="r1-e/l1" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.4" y="0.05" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="300.0" tokens="1"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p9" label="r3-e/l6" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.8040675" y="-0.41149667" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="300.0" tokens="1"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p21" label="r2-e/l2,l4,l5" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.15420692" y="-0.41878456" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="900.0" tokens="1"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p19" label="r2-e/l2,l3,l5" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.5619309" y="0.4290055" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="900.0" tokens="1"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p13" label="r3-e/l6" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.7975922" y="0.41857138" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="300.0" tokens="1"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p25" label="r2-e/l2,l5" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.23917244" y="0.14337017" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="600.0" tokens="1"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p36" label="r12-f/" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.20689654" y="0.82071835" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="0.0" tokens="0"/>
+      </editable>
+      <editable class="workcraft.mg.MGTransition" id="t5" label="r11" rotation="0" selected="false">
+        <transform>
+          <vec3 x="1.0151724" y="0.7853592" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p30" label="r11-f/l16" rotation="0" selected="false">
+        <transform>
+          <vec3 x="1.05" y="0.3" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="300.0" tokens="0"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p5" label="r3-e/l6" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.9357454" y="0.009907931" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="300.0" tokens="1"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p0" label="r0-f/l0" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.8" y="-0.05" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="300.0" tokens="1"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p16" label="r2-f/l2,l3,l5" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.17241384" y="-0.22734807" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="900.0" tokens="0"/>
+      </editable>
+      <editable class="workcraft.mg.MGTransition" id="t8" label="r7" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.8000001" y="-0.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p10" label="r3-f/l6" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.92573166" y="0.12689692" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="300.0" tokens="0"/>
+      </editable>
+      <editable class="workcraft.mg.MGTransition" id="t3" label="r2" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.2" y="-0.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p32" label="r13-f/" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.74399996" y="0.8359117" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="0.0" tokens="0"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p6" label="r3-f/l6" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.812242" y="-0.28089327" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="300.0" tokens="0"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p1" label="r0-e/l0" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.8" y="0.05" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="300.0" tokens="0"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p41" label="r8-e/l12,l10,l11" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.3537909" y="0.17477448" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="900.0" tokens="1"/>
+      </editable>
+      <editable class="workcraft.mg.MGTransition" id="t11" label="r8" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.0" y="0.3" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p3" label="r6-e/l7,l10,l11" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.4325598" y="-0.3426906" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="900.0" tokens="1"/>
+      </editable>
+      <editable class="workcraft.mg.MGPlace" id="p26" label="r2-f/l2,l5" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.2695173" y="0.37127072" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place delay.dev="1.0" delay.mean="600.0" tokens="0"/>
+      </editable>
+    </editable>
+    <editable-connection first="t0" second="p0" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p0" second="t4" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t4" second="p1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p1" second="t0" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t1" second="p2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p2" second="t8" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t8" second="p3" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p3" second="t1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t2" second="p4" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p4" second="t7" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t7" second="p5" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p5" second="t2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t2" second="p6" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p6" second="t12" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t12" second="p7" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p7" second="t2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t2" second="p8" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p8" second="t1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t1" second="p9" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p9" second="t2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t2" second="p10" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p10" second="t11" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t11" second="p11" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p11" second="t2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t2" second="p12" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p12" second="t13" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t13" second="p13" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p13" second="t2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t2" second="p14" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p14" second="t10" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t10" second="p15" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p15" second="t2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t3" second="p16" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p16" second="t2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t2" second="p17" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p17" second="t3" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t3" second="p18" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p18" second="t9" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t9" second="p19" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p19" second="t3" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t3" second="p20" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p20" second="t2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t2" second="p21" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p21" second="t3" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t3" second="p22" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p22" second="t9" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t9" second="p23" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p23" second="t3" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t3" second="p24" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p24" second="t2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t2" second="p25" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p25" second="t3" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t3" second="p26" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p26" second="t9" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t9" second="p27" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p27" second="t3" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t4" second="p28" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p28" second="t3" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t3" second="p29" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p29" second="t4" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t5" second="p30" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p30" second="t0" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t0" second="p31" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p31" second="t5" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t6" second="p32" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p32" second="t5" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t5" second="p33" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p33" second="t6" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t7" second="p34" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p34" second="t8" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t8" second="p35" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p35" second="t7" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t9" second="p36" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p36" second="t6" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t6" second="p37" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p37" second="t9" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t10" second="p38" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p38" second="t8" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t8" second="p39" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p39" second="t10" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t11" second="p40" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p40" second="t8" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t8" second="p41" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p41" second="t11" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t12" second="p42" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p42" second="t8" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t8" second="p43" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p43" second="t12" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t13" second="p44" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p44" second="t8" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t8" second="p45" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p45" second="t13" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+  </document>
+</workcraft>

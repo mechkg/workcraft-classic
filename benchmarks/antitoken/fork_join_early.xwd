@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workcraft>
+<options tab="2"/>
+<editor>
+<options grid="true" ids="true" labels="true" snap="true"/>
+<viewstate s="0.62092125" tx="-0.8264131" ty="0.37061006"/>
+</editor>
+<document model-uuid="5e947520-7af7-11db-9fe1-0800200c9a66">
+<editable class="workcraft.editor.GroupNode" id="_root" label="" selected="false">
+<transform>
+<vec3 x="0.0" y="0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<editable class="workcraft.antitoken.EditableATRegister" id="r2" label="" selected="false">
+<transform>
+<vec3 x="-0.19999999" y="-0.3" z="0.099999994"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<register antitoken="-1" token="-1"/>
+</editable>
+<editable class="workcraft.antitoken.EditableATRegister" id="r7" label="" selected="false">
+<transform>
+<vec3 x="-2.0" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<register antitoken="-1" token="-1"/>
+</editable>
+<editable class="workcraft.antitoken.EditableATLogic" id="l0" label="" selected="false">
+<transform>
+<vec3 x="0.7" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<logic back-eval-delay="300" back-eval-func="(not rm(r1))&amp;rma(r1)" back-reset-delay="300" back-reset-func="rm(r1)|(not rma(r1))" fwd-eval-delay="300" fwd-eval-func="rm(r0)&amp;(not rma(r0))" fwd-reset-delay="300" fwd-reset-func="(not rm(r0))|rma(r0)"/>
+</editable>
+<editable class="workcraft.antitoken.EditableATRegister" id="r1" label="" selected="false">
+<transform>
+<vec3 x="0.4" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<register antitoken="-1" token="-1"/>
+</editable>
+<editable class="workcraft.antitoken.EditableATLogic" id="l4" label="" selected="false">
+<transform>
+<vec3 x="-0.8" y="0.3" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<logic back-eval-delay="300" back-eval-func="lbe(l5)" back-reset-delay="300" back-reset-func="lbr(l5)" fwd-eval-delay="300" fwd-eval-func="rm(r3)&amp;(not rma(r3))" fwd-reset-delay="300" fwd-reset-func="(not rm(r3))|rma(r3)"/>
+</editable>
+<editable class="workcraft.antitoken.EditableATLogic" id="l3" label="" selected="false">
+<transform>
+<vec3 x="-0.5" y="-0.3" z="0.099999994"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<logic back-eval-delay="300" back-eval-func="(not rm(r4))&amp;rma(r4)" back-reset-delay="300" back-reset-func="rm(r4)|(not rma(r4))" fwd-eval-delay="300" fwd-eval-func="rm(r2)&amp;(not rma(r2))" fwd-reset-delay="300" fwd-reset-func="(not rm(r2))|rma(r2)"/>
+</editable>
+<editable class="workcraft.antitoken.EditableATLogic" id="l2" label="" selected="false">
+<transform>
+<vec3 x="-0.2" y="0.3" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<logic back-eval-delay="300" back-eval-func="(not rm(r3))&amp;rma(r3)" back-reset-delay="300" back-reset-func="rm(r3)|(not rma(r3))" fwd-eval-delay="300" fwd-eval-func="lfe(l1)" fwd-reset-delay="300" fwd-reset-func="lfr(l1)"/>
+</editable>
+<editable class="workcraft.antitoken.EditableATLogic" id="l5" label="" selected="false">
+<transform>
+<vec3 x="-1.1" y="0.3" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<logic back-eval-delay="300" back-eval-func="(not rm(r5))&amp;rma(r5)" back-reset-delay="300" back-reset-func="rm(r5)|(not rma(r5))" fwd-eval-delay="300" fwd-eval-func="lfe(l4)" fwd-reset-delay="300" fwd-reset-func="lfr(l4)"/>
+</editable>
+<editable class="workcraft.antitoken.EditableATLogic" id="l7" label="" selected="false">
+<transform>
+<vec3 x="-1.1" y="-0.3" z="0.099999994"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<logic back-eval-delay="300" back-eval-func="(not rm(r6))&amp;rma(r6)" back-reset-delay="300" back-reset-func="rm(r6)|(not rma(r6))" fwd-eval-delay="300" fwd-eval-func="rm(r4)&amp;(not rma(r4))" fwd-reset-delay="300" fwd-reset-func="(not rm(r4))|rma(r4)"/>
+</editable>
+<editable class="workcraft.antitoken.EditableATRegister" id="r5" label="" selected="false">
+<transform>
+<vec3 x="-1.4" y="0.3" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<register antitoken="-1" token="-1"/>
+</editable>
+<editable class="workcraft.antitoken.EditableATRegister" id="r6" label="" selected="false">
+<transform>
+<vec3 x="-1.4" y="-0.3" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<register antitoken="-1" token="-1"/>
+</editable>
+<editable class="workcraft.antitoken.EditableATRegister" id="r8" label="" selected="false">
+<transform>
+<vec3 x="-2.3" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<register antitoken="-1" token="-1"/>
+</editable>
+<editable class="workcraft.antitoken.EditableATRegister" id="r0" label="" selected="false">
+<transform>
+<vec3 x="1.0" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<register antitoken="-1" token="-1"/>
+</editable>
+<editable class="workcraft.antitoken.EditableATLogic" id="l1" label="" selected="false">
+<transform>
+<vec3 x="0.1" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<logic back-eval-delay="300" back-eval-func="(not rm(r2))&amp;rma(r2)&amp;lbe(l2)" back-reset-delay="300" back-reset-func="rm(r2)|(not rma(r2))&amp;lbr(l2)" fwd-eval-delay="300" fwd-eval-func="rm(r1)&amp;(not rma(r1))" fwd-reset-delay="300" fwd-reset-func="(not rm(r1))|rma(r1)"/>
+</editable>
+<editable class="workcraft.antitoken.EditableATRegister" id="r3" label="" selected="false">
+<transform>
+<vec3 x="-0.5" y="0.3" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<register antitoken="-1" token="-1"/>
+</editable>
+<editable class="workcraft.antitoken.EditableATLogic" id="l6" label="" selected="false">
+<transform>
+<vec3 x="-1.7" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<logic back-eval-delay="300" back-eval-func="(not rm(r7))&amp;rma(r7)" back-reset-delay="300" back-reset-func="rm(r7)|(not rma(r7))" fwd-eval-delay="300" fwd-eval-func="rm(r6)&amp;(not rma(r6))|rm(r5)&amp;(not rma(r5))" fwd-reset-delay="300" fwd-reset-func="(not rm(r6))|rma(r6)&amp;(not rm(r5))|rma(r5)"/>
+</editable>
+<editable class="workcraft.antitoken.EditableATRegister" id="r4" label="" selected="false">
+<transform>
+<vec3 x="-0.8" y="-0.3" z="0.099999994"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<register antitoken="-1" token="-1"/>
+</editable>
+</editable>
+<editable-connection first="r0" second="l0" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="l0" second="r1" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="r1" second="l1" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="l1" second="r2" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="r2" second="l3" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="l3" second="r4" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="r4" second="l7" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="l7" second="r6" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="r6" second="l6" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="l1" second="l2" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="l2" second="r3" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="r3" second="l4" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="l4" second="l5" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="l5" second="r5" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="r5" second="l6" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="l6" second="r7" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="r7" second="r8" selected="false">
+<connection/>
+</editable-connection>
+</document>
+</workcraft>

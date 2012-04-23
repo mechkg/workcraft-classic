@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workcraft>
+  <options tab="2"/>
+  <editor>
+    <options grid="true" ids="true" labels="true" snap="true"/>
+    <viewstate s="1.0" tx="0.19160488" ty="-0.43487257"/>
+  </editor>
+  <document model-uuid="6f704a28-e691-11db-8314-0800200c9a66">
+    <editable class="workcraft.editor.GroupNode" id="_root" label="" rotation="0" selected="false">
+      <transform>
+        <vec3 x="0.0" y="0.0" z="0.0"/>
+        <vec3 x="1.0" y="1.0" z="1.0"/>
+      </transform>
+      <editable class="workcraft.gate.NotGate" id="g11" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.5" y="-0.3" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <gate radius="0">
+          <contact id="con42" index="0" invert="false" state="reset" type="input"/>
+          <contact id="con43" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.NotGate" id="g3" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.1" y="-0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <gate radius="0">
+          <contact id="con11" index="0" invert="false" state="reset" type="input"/>
+          <contact id="con12" index="0" invert="true" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.Output" id="output0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.3" y="-0.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <gate radius="0">
+          <contact id="con5" index="0" invert="false" state="reset" type="input"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.Input" id="input0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="1.0" y="-0.3" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <gate radius="0">
+          <contact id="con7" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.NotGate" id="g1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.7" y="-0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <gate radius="0">
+          <contact id="con3" index="0" invert="false" state="reset" type="input"/>
+          <contact id="con4" index="0" invert="true" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.CElement" id="g0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.5" y="-0.3" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <gate radius="0">
+          <contact id="con0" index="0" invert="false" state="set" type="input"/>
+          <contact id="con1" index="1" invert="false" state="reset" type="input"/>
+          <contact id="con2" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.Output" id="output2" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.3000001" y="-3.7252903E-8" z="-3.7252903E-8"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <gate radius="0">
+          <contact id="con16" index="0" invert="false" state="reset" type="input"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.CElement" id="g4" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.100000106" y="-0.30000004" z="-2.9802322E-8"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <gate radius="0">
+          <contact id="con13" index="0" invert="false" state="set" type="input"/>
+          <contact id="con14" index="1" invert="false" state="reset" type="input"/>
+          <contact id="con15" index="0" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.Joint" id="g2" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.3" y="-0.3" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <gate radius="0">
+          <contact id="con8" index="0" invert="false" state="reset" type="input"/>
+          <contact id="con9" index="0" invert="false" state="reset" type="output"/>
+          <contact id="con10" index="1" invert="false" state="reset" type="output"/>
+          <contact id="con20" index="2" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.Output" id="output1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="1.0" y="-0.5" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <gate radius="0">
+          <contact id="con6" index="0" invert="false" state="reset" type="input"/>
+        </gate>
+      </editable>
+      <editable class="workcraft.gate.Joint" id="g5" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.3000001" y="-0.30000004" z="-3.7252903E-8"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <gate radius="0">
+          <contact id="con17" index="0" invert="false" state="reset" type="input"/>
+          <contact id="con18" index="0" invert="false" state="reset" type="output"/>
+          <contact id="con19" index="1" invert="false" state="reset" type="output"/>
+          <contact id="con44" index="2" invert="false" state="reset" type="output"/>
+        </gate>
+      </editable>
+    </editable>
+    <editable-connection first="con7" second="con1" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="2">
+          <vec2 x="0.24999993" y="-5.9604645E-8"/>
+          <vec2 x="0.24999993" y="-0.025000006"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con2" second="con8" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con9" second="con5" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con10" second="con6" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="1">
+          <vec2 x="1.7" y="1.0"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con15" second="con17" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con18" second="con16" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con20" second="con14" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="2">
+          <vec2 x="0.25000006" y="-5.9604645E-8"/>
+          <vec2 x="0.25000003" y="-0.025000006"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con4" second="con0" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con12" second="con13" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con19" second="con3" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="2">
+          <vec2 x="-8.940697E-8" y="1.2"/>
+          <vec2 x="-1.1000001" y="1.2"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con44" second="con42" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="0"/>
+      </connection>
+    </editable-connection>
+    <editable-connection first="con43" second="con11" selected="false">
+      <connection arrow="false" type="polyline">
+        <internal-points number="2">
+          <vec2 x="-1.1920929E-7" y="1.1"/>
+          <vec2 x="-0.8" y="1.1"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+  </document>
+</workcraft>

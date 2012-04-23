@@ -1,0 +1,20 @@
+<mapping sourceUuid="9df82f00-7aec-11db-9fe1-0800200c9a66">
+	<expansion sourceClass="workcraft.counterflow.CFRegister">
+		<cycle suffix="or" initializer="isOrMarked" set="getOrMarkFunc" reset="getOrUnmarkFunc"/>
+		<cycle suffix="fe" initializer="isForwardEnabled" set="getFwdEnableFunc" reset="getFwdDisableFunc"/>
+		<cycle suffix="and" initializer="isAndMarked" set="getAndMarkFunc" reset="getAndUnmarkFunc"/>
+		<cycle suffix="be" initializer="isBackwardEnabled" set="getBackEnableFunc" reset="getBackDisableFunc"/>
+	</expansion>
+	<expansion sourceClass="workcraft.counterflow.CFLogic">
+		<cycle suffix="fe" initializer="isForwardEvaluated" set="getFwdEvalFunc" reset="getFwdResetFunc"/>
+		<cycle suffix="be" initializer="isBackwardEvaluated" set="getBackEvalFunc" reset="getBackResetFunc"/>
+	</expansion>
+	<predicate token="am" suffix="and1"/>
+	<predicate token="om" suffix="or1"/>
+	<predicate token="lfe" suffix="fe1"/>
+	<predicate token="lbe" suffix="be1"/>
+	<predicate token="lfr" suffix="fe0"/>
+	<predicate token="lbr" suffix="be0"/>
+	<predicate token="rfe" suffix="fe1"/>
+	<predicate token="rbe" suffix="be1"/>
+</mapping>

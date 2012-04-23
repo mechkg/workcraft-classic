@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workcraft>
+<options tab="2"/>
+<editor>
+<options grid="true" ids="true" labels="true" snap="true"/>
+<viewstate s="1.0" tx="0.0" ty="0.0"/>
+</editor>
+<document model-uuid="a57b3350-73d3-11db-9fe1-0800200c9a66">
+<editable class="workcraft.editor.GroupNode" id="_root" label="" selected="false">
+<transform>
+<vec3 x="0.0" y="0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<editable class="workcraft.spreadtoken.EditableSTRegister" id="r0" label="" selected="false">
+<transform>
+<vec3 x="0.90000004" y="-0.1" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0"/>
+</editable>
+<editable class="workcraft.spreadtoken.EditableSTRegister" id="r1" label="" selected="false">
+<transform>
+<vec3 x="0.7" y="-0.1" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0"/>
+</editable>
+<editable class="workcraft.spreadtoken.EditableSTRegister" id="r2" label="" selected="false">
+<transform>
+<vec3 x="0.5" y="-0.1" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0"/>
+</editable>
+<editable class="workcraft.spreadtoken.EditableSTLogic" id="l0" label="" selected="false">
+<transform>
+<vec3 x="0.8" y="-0.2" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<st-logic eval-func="m(r0)" reset-func="(not m(r0))"/>
+</editable>
+<editable class="workcraft.spreadtoken.EditableSTLogic" id="l1" label="" selected="false">
+<transform>
+<vec3 x="0.6" y="-0.2" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<st-logic eval-func="m(r1)" reset-func="(not m(r1))"/>
+</editable>
+</editable>
+<editable-connection first="r0" second="l0" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="l0" second="r1" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="r1" second="l1" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="l1" second="r2" selected="false">
+<connection/>
+</editable-connection>
+</document>
+</workcraft>

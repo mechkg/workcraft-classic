@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<workcraft>
+  <options tab="2"/>
+  <editor>
+    <options grid="false" ids="false" labels="true" snap="true"/>
+    <viewstate s="1.1" tx="-1.5123473" ty="-0.26091456"/>
+  </editor>
+  <document model-uuid="65f89260-641d-11db-bd13-0800200c9a66">
+    <editable class="workcraft.editor.GroupNode" id="_root" label="" rotation="0" selected="false">
+      <transform>
+        <vec3 x="0.0" y="0.0" z="0.0"/>
+        <vec3 x="1.0" y="1.0" z="1.0"/>
+      </transform>
+      <custom-properties/>
+      <editable class="workcraft.petri.EditablePetriTransition" id="iface_input0_sig_minus1" label="input0-" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.2" y="-0.038915664" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 0 0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="p7" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.6" y="-0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="true" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="p13" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.8000001" y="-0.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="true" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="p9" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.6" y="-0.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="true" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="p6" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.2" y="-0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="true" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="iface_output0_sig_plus1" label="output+" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.4" y="-0.3" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="iface_input0_sig_plus1" label="input0+" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.1999999" y="-0.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="iface_input1_sig_minus1" label="input1-" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.6" y="-0.038915664" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 0 0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="iface_input1_sig_plus1" label="input1+" rotation="0" selected="true">
+        <transform>
+          <vec3 x="-1.6" y="-0.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="p8" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.2" y="-0.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="true" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="iface_output0_sig_minus1" label="output-" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.4" y="0.3" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 0 0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="p10" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.6" y="0.11681874" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="true" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="p11" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.2" y="0.11681874" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="true" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="p12" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.0" y="-0.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="true" tokens="1"/>
+      </editable>
+    </editable>
+    <editable-connection first="iface_input0_sig_plus1" second="p6" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p6" second="iface_output0_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_input1_sig_plus1" second="p7" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p7" second="iface_output0_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_output0_sig_plus1" second="p8" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p8" second="iface_input0_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_output0_sig_plus1" second="p9" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p9" second="iface_input1_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_input1_sig_minus1" second="p10" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p10" second="iface_output0_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_input0_sig_minus1" second="p11" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="p11" second="iface_output0_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_output0_sig_minus1" second="p12" selected="false">
+      <connection arrow="false" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.27439016" y="0.21951212"/>
+          <vec2 x="-0.22408015" y="0.71989983"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="p12" second="iface_input0_sig_plus1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.12355888" y="0.31574547"/>
+          <vec2 x="-0.19999981" y="0.9000002"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="iface_output0_sig_minus1" second="p13" selected="false">
+      <connection arrow="false" type="bezier">
+        <internal-points number="2">
+          <vec2 x="0.27439022" y="0.21951221"/>
+          <vec2 x="0.21951222" y="0.7256098"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="p13" second="iface_input1_sig_plus1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="0.12500001" y="0.25"/>
+          <vec2 x="0.20000009" y="0.9000001"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+  </document>
+</workcraft>

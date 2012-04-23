@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workcraft>
+  <options tab="0"/>
+  <editor>
+    <options grid="true" ids="true" labels="true" snap="true"/>
+    <viewstate s="1.0" tx="0.0" ty="0.0"/>
+  </editor>
+  <document model-uuid="6f704a28-e691-11db-8314-0800200c9a66">
+    <editable class="workcraft.editor.GroupNode" id="_root" label="" rotation="0" selected="false">
+      <transform>
+        <vec3 x="0.0" y="0.0" z="0.0"/>
+        <vec3 x="1.0" y="1.0" z="1.0"/>
+      </transform>
+      <custom-properties/>
+      <editable class="workcraft.gate.EnvironmentBox" id="env0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.6" y="-0.3" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <environment active="true" environment-stg-path="D:\mech\Workcraft\benchmarks\petri_nets\c_iface.xwd"/>
+      </editable>
+    </editable>
+  </document>
+</workcraft>

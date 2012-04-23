@@ -1,0 +1,29 @@
+<mapping sourceUuid="6f704a28-e691-11db-8314-0800200c9a66" preMap="prepareMap">
+    <ignore sourceClass="workcraft.gate.Joint"/>
+    <expansion sourceClass="workcraft.gate.AndGate">
+         <cycle suffix="" initializer="isSet" set="getSetFunction" reset="getResetFunction" plusTag="getPlusTag" minusTag="getMinusTag"/>
+    </expansion>
+    <expansion sourceClass="workcraft.gate.OrGate">
+         <cycle suffix="" initializer="isSet" set="getSetFunction" reset="getResetFunction" plusTag="getPlusTag" minusTag="getMinusTag"/>
+    </expansion>
+    <expansion sourceClass="workcraft.gate.XorGate">
+         <cycle suffix="" initializer="isSet" set="getSetFunction" reset="getResetFunction" plusTag="getPlusTag" minusTag="getMinusTag"/>
+    </expansion>
+    <expansion sourceClass="workcraft.gate.CElement">
+         <cycle suffix="" initializer="isSet" set="getSetFunction" reset="getResetFunction" plusTag="getPlusTag" minusTag="getMinusTag"/>
+    </expansion>
+    <expansion sourceClass="workcraft.gate.NotGate">
+         <cycle suffix="" initializer="isSet" set="getSetFunction" reset="getResetFunction" plusTag="getPlusTag" minusTag="getMinusTag"/>
+    </expansion>
+    <expansion sourceClass="workcraft.gate.ComplexGate">
+         <cycle suffix="" initializer="isSet" set="getSetFunction" reset="getResetFunction" plusTag="getPlusTag" minusTag="getMinusTag"/>
+    </expansion>
+    <expansion sourceClass="workcraft.gate.Input">
+         <cycle suffix="" initializer="isSet" set="getSetFunction" reset="getResetFunction" plusTag="getPlusTag" minusTag="getMinusTag"/>
+    </expansion>
+    <expansion sourceClass="workcraft.gate.Output">
+         <cycle suffix="" initializer="isSet" set="getSetFunction" reset="getResetFunction" plusTag="getPlusTag" minusTag="getMinusTag"/>
+    </expansion>
+    <predicate token="s" suffix="1"/>
+    <predicate token="r" suffix="0"/>
+</mapping>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workcraft>
+<options tab="2"/>
+<editor>
+<options grid="true" ids="true" labels="true" snap="true"/>
+<viewstate s="1.61051" tx="-0.08306549" ty="0.049579084"/>
+</editor>
+<document model-uuid="5e947520-7af7-11db-9fe1-0800200c9a66">
+<editable class="workcraft.editor.GroupNode" id="_root" label="" selected="false">
+<transform>
+<vec3 x="0.0" y="0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<editable class="workcraft.antitoken.ATLogic" id="l4" label="" selected="false">
+<transform>
+<vec3 x="-0.5" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<sdfs-node user-edited="false"/>
+<sdfs-logic-2way back-eval-delay="300" back-eval-func="am(r5)&amp;(not m(r5))" back-reset-delay="300" back-reset-func="((not am(r5))|m(r5))" fwd-eval-delay="300" fwd-eval-func="m(r4)&amp;(not am(r4))" fwd-reset-delay="300" fwd-reset-func="((not m(r4))|am(r4))"/>
+</editable>
+<editable class="workcraft.antitoken.ATRegister" id="r4" label="" selected="false">
+<transform>
+<vec3 x="-0.3" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<sdfs-node user-edited="false"/>
+<sdfs-register/>
+<at-register and-token="false" anti-mark-func="rfe(r4)&amp;(not rbe(r4))&amp;(not am(r3))&amp;(not m(r5))&amp;(m(r3)|(not (am(r2))))" anti-unmark-func="(not am(r4))&amp;(not rfe(r4))&amp;(not rbe(r4))&amp;m(r5)" antitoken="false" back-disable-func="am(r4)&amp;lbr(l4)" back-enable-func="(not am(r4))&amp;lbe(l4)" fwd-disable-func="m(r4)&amp;lfr(l3)" fwd-enable-func="(not m(r4))&amp;lfe(l3)" mark-func="rfe(r4)&amp;(not rbe(r4))&amp;(not am(r3))&amp;(not m(r5))&amp;(m(r3)|(not (am(r2))))" or-token="false" token="false" unmark-func="(not am(r4))&amp;(not rfe(r4))&amp;(not rbe(r4))&amp;m(r5)"/>
+</editable>
+<editable class="workcraft.antitoken.ATRegister" id="r3" label="" selected="false">
+<transform>
+<vec3 x="0.1" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<sdfs-node user-edited="false"/>
+<sdfs-register/>
+<at-register and-token="false" anti-mark-func="rfe(r3)&amp;(not rbe(r3))&amp;(not am(r2))&amp;(not m(r4))" anti-unmark-func="(not am(r3))&amp;(not rfe(r3))&amp;(not rbe(r3))&amp;m(r4)" antitoken="false" back-disable-func="am(r3)&amp;lbr(l3)" back-enable-func="(not am(r3))&amp;lbe(l3)" fwd-disable-func="m(r3)&amp;lfr(l2)" fwd-enable-func="(not m(r3))&amp;lfe(l2)" mark-func="rfe(r3)&amp;(not rbe(r3))&amp;(not am(r2))&amp;(not m(r4))" or-token="false" token="false" unmark-func="(not am(r3))&amp;(not rfe(r3))&amp;(not rbe(r3))&amp;m(r4)"/>
+</editable>
+<editable class="workcraft.antitoken.ATLogic" id="l2" label="" selected="false">
+<transform>
+<vec3 x="0.3" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<sdfs-node user-edited="false"/>
+<sdfs-logic-2way back-eval-delay="300" back-eval-func="am(r3)&amp;(not m(r3))" back-reset-delay="300" back-reset-func="((not am(r3))|m(r3))" fwd-eval-delay="300" fwd-eval-func="m(r2)&amp;(not am(r2))" fwd-reset-delay="300" fwd-reset-func="((not m(r2))|am(r2))"/>
+</editable>
+<editable class="workcraft.antitoken.ATRegister" id="r2" label="" selected="false">
+<transform>
+<vec3 x="0.5" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<sdfs-node user-edited="false"/>
+<sdfs-register/>
+<at-register and-token="false" anti-mark-func="rfe(r2)&amp;(not rbe(r2))&amp;(not m(r3))" anti-unmark-func="(not am(r2))&amp;(not rfe(r2))&amp;(not rbe(r2))&amp;m(r3)" antitoken="false" back-disable-func="am(r2)&amp;lbr(l2)" back-enable-func="(not am(r2))&amp;lbe(l2)" fwd-disable-func="m(r2)" fwd-enable-func="(not m(r2))" mark-func="rfe(r2)&amp;(not rbe(r2))&amp;(not m(r3))" or-token="false" token="false" unmark-func="(not am(r2))&amp;(not rfe(r2))&amp;(not rbe(r2))&amp;m(r3)"/>
+</editable>
+<editable class="workcraft.antitoken.ATRegister" id="r5" label="" selected="false">
+<transform>
+<vec3 x="-0.7" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<sdfs-node user-edited="false"/>
+<sdfs-register/>
+<at-register and-token="false" anti-mark-func="rfe(r5)&amp;(not rbe(r5))&amp;(not am(r4))&amp;(m(r4)|(not (am(r3))))" anti-unmark-func="(not am(r5))&amp;(not rfe(r5))&amp;(not rbe(r5))" antitoken="false" back-disable-func="am(r5)" back-enable-func="(not am(r5))" fwd-disable-func="m(r5)&amp;lfr(l4)" fwd-enable-func="(not m(r5))&amp;lfe(l4)" mark-func="rfe(r5)&amp;(not rbe(r5))&amp;(not am(r4))&amp;(m(r4)|(not (am(r3))))" or-token="false" token="false" unmark-func="(not am(r5))&amp;(not rfe(r5))&amp;(not rbe(r5))"/>
+</editable>
+<editable class="workcraft.antitoken.ATLogic" id="l3" label="" selected="false">
+<transform>
+<vec3 x="-0.1" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<sdfs-node user-edited="false"/>
+<sdfs-logic-2way back-eval-delay="300" back-eval-func="am(r4)&amp;(not m(r4))" back-reset-delay="300" back-reset-func="((not am(r4))|m(r4))" fwd-eval-delay="300" fwd-eval-func="m(r3)&amp;(not am(r3))" fwd-reset-delay="300" fwd-reset-func="((not m(r3))|am(r3))"/>
+</editable>
+</editable>
+<editable-connection first="r2" second="l2" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="l2" second="r3" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="r3" second="l3" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="l3" second="r4" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="r4" second="l4" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="l4" second="r5" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+</document>
+</workcraft>

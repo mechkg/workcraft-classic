@@ -1,0 +1,13 @@
+<mapping sourceUuid="a57b3350-73d3-11db-9fe1-0800200c9a66">
+	<expansion sourceClass="workcraft.spreadtoken.STRegister">
+		<cycle suffix="mrk" initializer="isMarked" set="getMarkFunc" reset="getUnmarkFunc"/>
+		<cycle suffix="enb" initializer="isEnabled" set="getEnableFunc" reset="getDisableFunc"/>
+	</expansion>
+	<expansion sourceClass="workcraft.spreadtoken.STLogic">
+		<cycle suffix="evl" initializer="isEvaluated" set="getEvalFunc" reset="getResetFunc"/>
+	</expansion>
+	<predicate token="m" suffix="mrk1"/>
+	<predicate token="re" suffix="enb1"/>
+	<predicate token="e" suffix="evl1"/>
+	<predicate token="r" suffix="evl0"/>
+</mapping>

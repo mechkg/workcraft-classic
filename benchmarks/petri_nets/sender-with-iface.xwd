@@ -1,0 +1,3271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workcraft>
+  <options tab="2"/>
+  <editor>
+    <options grid="true" ids="false" labels="true" snap="true"/>
+    <viewstate s="1.0" tx="0.0" ty="0.0"/>
+  </editor>
+  <document model-uuid="65f89260-641d-11db-bd13-0800200c9a66">
+    <editable class="workcraft.editor.GroupNode" id="_root" label="" rotation="0" selected="false">
+      <transform>
+        <vec3 x="0.0" y="0.0" z="0.0"/>
+        <vec3 x="1.0" y="1.0" z="1.0"/>
+      </transform>
+      <custom-properties/>
+      <editable class="workcraft.petri.EditablePetriTransition" id="g_a_sig_plus2" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="-4.8" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="g_c_sig_plus5" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="1.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x1_sig1_2" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.175001" y="-5.2000003" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x6_sig1_2" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.175001" y="2.8" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x5_sig1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.200001" y="1.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="x2_sig_minus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.400001" y="-3.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="interface" value="true"/>
+          <property key="mapping-tag" value="bd 0 0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="x1_sig_plus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.400001" y="-5.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="interface" value="true"/>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="b_c_sig_minus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.8000002" y="3.8" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 0 0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x4_sig1_2" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.175001" y="-0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="iface_t23" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.0" y="0.7" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="interface" value="true"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="go_sig1_2" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.175001" y="6.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="b_a_sig1_3" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-3.0250003" y="-2.8000002" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="go_sig1_17" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.175001" y="6.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="b_sig1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-5.4" y="-1.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="iface_p38" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.45" y="1.8499999" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="x6_sig_minus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.400001" y="3.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="interface" value="true"/>
+          <property key="mapping-tag" value="bd 0 0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="done_sig0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-5.0000005" y="6.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="g_a_sig_plus3" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="-5.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x2_sig1_1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.175001" y="-3.6000001" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="g_c_sig_minus3" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="2.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 0 0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="b_sig_plus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-5.2000003" y="-1.4000001" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="interface" value="true"/>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="go_sig1_15" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.175001" y="6.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="done_sig1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-5.4" y="6.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x4_sig0_1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.575001" y="-0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="b_a_sig0_1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.6250002" y="-2.8000002" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x6_sig0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.6" y="2.8" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x3_sig0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.6" y="-2.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="g_a_sig0_1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.22500001" y="-4.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="b_b_sig1_1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-3.0250003" y="0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="b_b_sig1_3" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-3.0250003" y="0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x1_sig1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.200001" y="-5.2000003" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="x5_sig_minus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.400001" y="1.4000001" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="interface" value="true"/>
+          <property key="mapping-tag" value="bd 0 0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="g28_sig1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.6" y="6.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="b_b_sig1_4" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-3.0250003" y="0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x6_sig0_1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.575001" y="2.8" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="g_b_sig_plus3" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="-1.8000001" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="b_a_sig0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.6000001" y="-2.8000002" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="c_sig_minus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-5.2000003" y="2.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="interface" value="true"/>
+          <property key="mapping-tag" value="bd 0 0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="iface_p36" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.5499999" y="1.05" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="iface_p32" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-3.0" y="1.1" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x5_sig1_1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.175001" y="1.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x2_sig1_2" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.175001" y="-3.6000001" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x4_sig1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.200001" y="-0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="g_c_sig_minus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="2.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 0 0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="g_c_sig_plus6" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="0.79999995" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="g_a_sig1_1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.625" y="-4.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="iface_p37" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.95" y="1.05" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="g_c_sig0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.2" y="2.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x1_sig0_1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.575001" y="-5.2000003" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="go_sig1_13" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.175001" y="6.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="g_a_sig_plus4" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="-5.2000003" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="iface_p22" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.0" y="-1.5" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="iface_p33" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.0" y="0.5" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="g_a_sig_plus5" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="-5.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="x4_sig_minus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.400001" y="-0.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="interface" value="true"/>
+          <property key="mapping-tag" value="bd 0 0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="iface_p23" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.0" y="0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="iface_p27" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.1" y="0.79999995" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="g_a_sig_minus3" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="-3.8000002" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 0 0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="g_a_sig_minus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="-4.2000003" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 0 0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="g_a_sig_plus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="-4.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="b_c_sig1_2" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-3.0250003" y="3.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="b_a_sig1_1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-3.0250003" y="-2.8000002" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x3_sig1_2" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.175001" y="-2.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="g_c_sig_plus4" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="1.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="g_b_sig_plus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="-1.4000001" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x5_sig0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.6" y="1.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x3_sig1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.200001" y="-2.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="iface_p26" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.6999998" y="0.79999995" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="g_a_sig1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.6" y="-4.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="g_b_sig1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.6" y="-1.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="g_c_sig_minus2" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="2.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 0 0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="g_b_sig0_1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.22500001" y="-1.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="iface_p40" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.7" y="1.85" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="done_sig_minus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-5.2000003" y="6.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="interface" value="true"/>
+          <property key="mapping-tag" value="bd 0 0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="g28_sig_minus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="6.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 0 0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="b_b_sig0_2" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.6250002" y="0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x5_sig1_2" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.175001" y="1.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="go_sig0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.6" y="6.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x5_sig0_1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.575001" y="1.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="b_b_sig_minus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.8000002" y="0.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 0 0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="x6_sig_plus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.400001" y="2.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="interface" value="true"/>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="b_c_sig1_4" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-3.0250003" y="3.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="go_sig1_12" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.175001" y="6.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="b_sig_minus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-5.2000003" y="-1.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="interface" value="true"/>
+          <property key="mapping-tag" value="bd 0 0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x2_sig0_1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.575001" y="-3.6000001" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="iface_p43" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-3.1000001" y="1.1291666" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="x5_sig_plus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.400001" y="1.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="interface" value="true"/>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="iface_p29" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.95" y="1.55" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="g_c_sig1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.6" y="2.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="x3_sig_plus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.400001" y="-2.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="interface" value="true"/>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="go_sig1_10" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.175001" y="6.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="a_sig_plus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-5.2000003" y="-4.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="interface" value="true"/>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="g_b_sig_plus4" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="-2.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x3_sig0_1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.575001" y="-2.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x1_sig0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.6" y="-5.2000003" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="go_sig1_8" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.175001" y="6.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="g28_sig_plus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="6.2000003" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="x3_sig_minus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.400001" y="-1.8" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="interface" value="true"/>
+          <property key="mapping-tag" value="bd 0 0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="iface_p34" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.6000001" y="0.5291667" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="iface_t22" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.3" y="0.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="interface" value="true"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="a_sig1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-5.4" y="-4.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="g_b_sig_plus5" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="-2.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="b_c_sig1_1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-3.0250003" y="3.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="iface_p42" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.4" y="1.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="g_b_sig_minus2" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="-0.8000001" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 0 0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x4_sig0_2" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.575001" y="-0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="go_sig1_5" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.175001" y="6.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="a_sig0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-5.0000005" y="-4.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="c_sig1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-5.4" y="2.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="g_c_sig_plus3" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="1.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="go_sig0_1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.575001" y="6.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="b_c_sig0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.6000001" y="3.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="go_sig1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.200001" y="6.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x3_sig1_1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.175001" y="-2.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x5_sig0_2" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.575001" y="1.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="g_b_sig_minus3" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="-0.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 0 0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="g28_sig0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.2" y="6.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="g_c_sig0_1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.22500001" y="2.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x1_sig0_2" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.575001" y="-5.2000003" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="iface_t24" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.0" y="2.3" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="interface" value="true"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="b_a_sig_plus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.8000002" y="-3.0000002" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="g_c_sig_plus2" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="1.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="b_a_sig1_2" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-3.0250003" y="-2.8000002" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x6_sig1_1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.175001" y="2.8" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="c_sig0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-5.0000005" y="2.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="go_sig0_2" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.575001" y="6.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x2_sig0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.6" y="-3.6000001" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="x4_sig_plus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.400001" y="-0.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="interface" value="true"/>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="b_c_sig0_1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.6250002" y="3.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="g_b_sig0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.2" y="-1.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="go_sig1_9" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.175001" y="6.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="b_c_sig1_3" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-3.0250003" y="3.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="b_b_sig0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.6000001" y="0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="b_a_sig_minus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.8000002" y="-2.6000001" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 0 0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x6_sig0_2" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.575001" y="2.8" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="b_b_sig1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-3.0000002" y="0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="b_c_sig1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-3.0000002" y="3.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="b_a_sig0_2" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.6250002" y="-2.8000002" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="x2_sig_plus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.400001" y="-3.8000002" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="interface" value="true"/>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x2_sig1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.200001" y="-3.6000001" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="go_sig1_1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.175001" y="6.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x4_sig0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.6" y="-0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="g_c_sig1_1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.625" y="2.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="b_b_sig_plus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.8000002" y="0.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="g_b_sig1_1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.625" y="-1.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="go_sig1_4" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.175001" y="6.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="go_sig1_11" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.175001" y="6.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="g_b_sig_plus2" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="-1.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="go_sig1_3" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.175001" y="6.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="b_b_sig0_1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.6250002" y="0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="g_b_sig_minus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="-1.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 0 0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="b_b_sig1_2" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-3.0250003" y="0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="iface_p24" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-3.75" y="0.27916667" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="g_a_sig_minus2" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="-4.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 0 0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="iface_p35" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.2" y="1.0500001" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="go_sig1_7" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.175001" y="6.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x1_sig1_1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.175001" y="-5.2000003" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="b_sig0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-5.0000005" y="-1.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="b_c_sig0_2" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.6250002" y="3.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="iface_p25" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.35" y="0.8" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="a_sig_minus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-5.2000003" y="-4.2000003" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="interface" value="true"/>
+          <property key="mapping-tag" value="bd 0 0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="g_b_sig_plus6" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="-2.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="iface_p30" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.35" y="1.55" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="go_sig1_14" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.175001" y="6.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="iface_p39" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.05" y="1.8499999" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="b_c_sig_plus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.8000002" y="3.3999999" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="x1_sig_minus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.400001" y="-5.0000005" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="interface" value="true"/>
+          <property key="mapping-tag" value="bd 0 0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="go_sig1_16" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.175001" y="6.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="go_sig1_6" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.175001" y="6.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="b_a_sig1_4" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-3.0250003" y="-2.8000002" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x4_sig1_1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.175001" y="-0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="go_sig_plus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.400001" y="5.8" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="interface" value="true"/>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="b_a_sig1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-3.0000002" y="-2.8000002" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x6_sig1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.200001" y="2.8" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="g_c_sig_plus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="1.8" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="iface_p41" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.9" y="2.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="g_a_sig0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.2" y="-4.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="iface_p28" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.6" y="1.55" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="c_sig_plus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-5.2000003" y="1.8" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="interface" value="true"/>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="g_a_sig_plus6" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="-5.6000004" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="iface_p31" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-4.0" y="1.2291666" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="done_sig_plus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-5.2000003" y="6.2000003" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="interface" value="true"/>
+          <property key="mapping-tag" value="bd 1.0 2.0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x2_sig0_2" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.575001" y="-3.6000001" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="go_sig_minus1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.400001" y="6.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties>
+          <property key="interface" value="true"/>
+          <property key="mapping-tag" value="bd 0 0"/>
+        </custom-properties>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x3_sig0_2" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="12.575001" y="-2.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+    </editable>
+    <editable-connection first="done_sig0" second="done_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="done_sig_plus1" second="done_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g28_sig1" second="done_sig_plus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="done_sig_plus1" second="g28_sig1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="done_sig1" second="done_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="done_sig_minus1" second="done_sig0" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g28_sig0" second="done_sig_minus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="done_sig_minus1" second="g28_sig0" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="a_sig0" second="a_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="a_sig_plus1" second="a_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="a_sig1" second="a_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="a_sig_minus1" second="a_sig0" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig0" second="g_a_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_plus1" second="g_a_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig0" second="g_a_sig_plus2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_plus2" second="g_a_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig0" second="g_a_sig_plus3" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_plus3" second="g_a_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig0" second="g_a_sig_plus4" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_plus4" second="g_a_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig0" second="g_a_sig_plus5" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_plus5" second="g_a_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig0" second="g_a_sig_plus6" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_plus6" second="g_a_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig1" second="g_a_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_minus1" second="g_a_sig0" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig1" second="g_a_sig_minus2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_minus2" second="g_a_sig0" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig1" second="g_a_sig_minus3" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_minus3" second="g_a_sig0" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x3_sig0" second="x3_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x3_sig_plus1" second="x3_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x3_sig1" second="x3_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x3_sig_minus1" second="x3_sig0" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x2_sig0" second="x2_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x2_sig_plus1" second="x2_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x2_sig1" second="x2_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x2_sig_minus1" second="x2_sig0" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_b_sig0" second="b_b_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_b_sig_plus1" second="b_b_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_b_sig1" second="b_b_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_b_sig_minus1" second="b_b_sig0" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_a_sig0" second="b_a_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_a_sig_plus1" second="b_a_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_a_sig1" second="b_a_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_a_sig_minus1" second="b_a_sig0" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_c_sig0" second="b_c_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_c_sig_plus1" second="b_c_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_c_sig1" second="b_c_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_c_sig_minus1" second="b_c_sig0" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g28_sig0" second="g28_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g28_sig_plus1" second="g28_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g28_sig1" second="g28_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g28_sig_minus1" second="g28_sig0" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x6_sig0" second="x6_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x6_sig_plus1" second="x6_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x6_sig1" second="x6_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x6_sig_minus1" second="x6_sig0" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_sig0" second="b_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_sig_plus1" second="b_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_sig1" second="b_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_sig_minus1" second="b_sig0" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x1_sig0" second="x1_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x1_sig_plus1" second="x1_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x1_sig1" second="x1_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x1_sig_minus1" second="x1_sig0" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig0" second="go_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig_plus1" second="go_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1" second="go_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig_minus1" second="go_sig0" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x5_sig0" second="x5_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x5_sig_plus1" second="x5_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x5_sig1" second="x5_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x5_sig_minus1" second="x5_sig0" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x4_sig0" second="x4_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x4_sig_plus1" second="x4_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x4_sig1" second="x4_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x4_sig_minus1" second="x4_sig0" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig0" second="g_c_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_plus1" second="g_c_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig0" second="g_c_sig_plus2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_plus2" second="g_c_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig0" second="g_c_sig_plus3" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_plus3" second="g_c_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig0" second="g_c_sig_plus4" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_plus4" second="g_c_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig0" second="g_c_sig_plus5" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_plus5" second="g_c_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig0" second="g_c_sig_plus6" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_plus6" second="g_c_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig1" second="g_c_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_minus1" second="g_c_sig0" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig1" second="g_c_sig_minus2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_minus2" second="g_c_sig0" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig1" second="g_c_sig_minus3" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_minus3" second="g_c_sig0" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="c_sig0" second="c_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="c_sig_plus1" second="c_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="c_sig1" second="c_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="c_sig_minus1" second="c_sig0" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig0" second="g_b_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_plus1" second="g_b_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig0" second="g_b_sig_plus2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_plus2" second="g_b_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig0" second="g_b_sig_plus3" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_plus3" second="g_b_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig0" second="g_b_sig_plus4" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_plus4" second="g_b_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig0" second="g_b_sig_plus5" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_plus5" second="g_b_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig0" second="g_b_sig_plus6" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_plus6" second="g_b_sig1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig1" second="g_b_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_minus1" second="g_b_sig0" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig1" second="g_b_sig_minus2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_minus2" second="g_b_sig0" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig1" second="g_b_sig_minus3" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_minus3" second="g_b_sig0" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="done_sig_minus1" second="iface_p41" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p41" second="iface_t24" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_t23" second="iface_p35" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p35" second="a_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="c_sig_plus1" second="iface_p30" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p30" second="done_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="done_sig_plus1" second="iface_p32" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p32" second="x3_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p32" second="x4_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p32" second="x1_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p32" second="x2_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p32" second="x5_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p32" second="x6_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig_minus1" second="iface_p34" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p34" second="iface_t23" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_t24" second="iface_p43" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p43" second="go_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig_plus1" second="iface_p24" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p24" second="iface_t22" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x3_sig_plus1" second="iface_p23" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x4_sig_plus1" second="iface_p23" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x1_sig_plus1" second="iface_p23" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x2_sig_plus1" second="iface_p23" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x5_sig_plus1" second="iface_p23" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x6_sig_plus1" second="iface_p23" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p23" second="iface_t22" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="c_sig_minus1" second="iface_p38" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p38" second="iface_t24" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x3_sig_minus1" second="iface_p33" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x4_sig_minus1" second="iface_p33" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x1_sig_minus1" second="iface_p33" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x2_sig_minus1" second="iface_p33" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x5_sig_minus1" second="iface_p33" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x6_sig_minus1" second="iface_p33" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p33" second="iface_t23" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_t23" second="iface_p36" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p36" second="b_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_sig_minus1" second="iface_p39" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p39" second="iface_t24" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="done_sig_plus1" second="iface_p31" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p31" second="go_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="a_sig_minus1" second="iface_p40" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p40" second="iface_t24" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="a_sig_plus1" second="iface_p28" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p28" second="done_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_t24" second="iface_p22" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p22" second="x3_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p22" second="x4_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p22" second="x1_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p22" second="x2_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p22" second="x5_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p22" second="x6_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_t23" second="iface_p37" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p37" second="c_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_t22" second="iface_p27" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p27" second="c_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_t23" second="iface_p42" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p42" second="done_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_t22" second="iface_p25" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p25" second="a_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_t22" second="iface_p26" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p26" second="b_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_sig_plus1" second="iface_p29" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="iface_p29" second="done_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_plus1" second="g_a_sig1_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_plus2" second="g_a_sig1_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_plus3" second="g_a_sig1_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_plus4" second="g_a_sig1_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_plus5" second="g_a_sig1_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_plus6" second="g_a_sig1_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig1_1" second="g_a_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig1_1" second="g_a_sig_minus2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig1_1" second="g_a_sig_minus3" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig1" second="a_sig_plus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="a_sig_plus1" second="g_a_sig1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig1_1" second="b_a_sig_plus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_a_sig_plus1" second="g_a_sig1_1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_minus1" second="g_a_sig0_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_minus2" second="g_a_sig0_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_minus3" second="g_a_sig0_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig0_1" second="g_a_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig0_1" second="g_a_sig_plus2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig0_1" second="g_a_sig_plus3" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig0_1" second="g_a_sig_plus4" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig0_1" second="g_a_sig_plus5" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig0_1" second="g_a_sig_plus6" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig0" second="a_sig_minus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="a_sig_minus1" second="g_a_sig0" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig0_1" second="b_a_sig_minus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_a_sig_minus1" second="g_a_sig0_1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x3_sig_plus1" second="x3_sig1_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x3_sig_plus1" second="x3_sig1_2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x3_sig1_1" second="x3_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x3_sig1_2" second="x3_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x3_sig1" second="g_a_sig_plus2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_plus2" second="x3_sig1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x3_sig1_1" second="g_a_sig_plus5" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_plus5" second="x3_sig1_1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x3_sig1_2" second="g_b_sig_plus3" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_plus3" second="x3_sig1_2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x3_sig_minus1" second="x3_sig0_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x3_sig_minus1" second="x3_sig0_2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x3_sig0_1" second="x3_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x3_sig0_2" second="x3_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x3_sig0" second="g_a_sig_minus3" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_minus3" second="x3_sig0" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x3_sig0_1" second="g_b_sig_minus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_minus1" second="x3_sig0_1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x3_sig0_2" second="g_b_sig_minus3" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_minus3" second="x3_sig0_2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x2_sig_plus1" second="x2_sig1_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x2_sig_plus1" second="x2_sig1_2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x2_sig1_1" second="x2_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x2_sig1_2" second="x2_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x2_sig1" second="g_a_sig_plus3" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_plus3" second="x2_sig1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x2_sig1_1" second="g_c_sig_plus3" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_plus3" second="x2_sig1_1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x2_sig1_2" second="g_c_sig_plus6" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_plus6" second="x2_sig1_2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x2_sig_minus1" second="x2_sig0_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x2_sig_minus1" second="x2_sig0_2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x2_sig0_1" second="x2_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x2_sig0_2" second="x2_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x2_sig0" second="g_a_sig_minus2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_minus2" second="x2_sig0" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x2_sig0_1" second="g_a_sig_minus3" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_minus3" second="x2_sig0_1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x2_sig0_2" second="g_c_sig_minus3" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_minus3" second="x2_sig0_2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_b_sig_plus1" second="b_b_sig1_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_b_sig_plus1" second="b_b_sig1_2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_b_sig_plus1" second="b_b_sig1_3" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_b_sig_plus1" second="b_b_sig1_4" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_b_sig1_1" second="b_b_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_b_sig1_2" second="b_b_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_b_sig1_3" second="b_b_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_b_sig1_4" second="b_b_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_b_sig1" second="g_a_sig_plus2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_plus2" second="b_b_sig1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_b_sig1_1" second="g_a_sig_plus4" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_plus4" second="b_b_sig1_1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_b_sig1_2" second="g28_sig_plus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g28_sig_plus1" second="b_b_sig1_2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_b_sig1_3" second="g_c_sig_plus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_plus1" second="b_b_sig1_3" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_b_sig1_4" second="g_c_sig_plus4" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_plus4" second="b_b_sig1_4" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_b_sig_minus1" second="b_b_sig0_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_b_sig_minus1" second="b_b_sig0_2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_b_sig0_1" second="b_b_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_b_sig0_2" second="b_b_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_b_sig0" second="g_a_sig_minus2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_minus2" second="b_b_sig0" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_b_sig0_1" second="g28_sig_minus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g28_sig_minus1" second="b_b_sig0_1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_b_sig0_2" second="g_c_sig_minus3" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_minus3" second="b_b_sig0_2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_a_sig_plus1" second="b_a_sig1_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_a_sig_plus1" second="b_a_sig1_2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_a_sig_plus1" second="b_a_sig1_3" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_a_sig_plus1" second="b_a_sig1_4" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_a_sig1_1" second="b_a_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_a_sig1_2" second="b_a_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_a_sig1_3" second="b_a_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_a_sig1_4" second="b_a_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_a_sig1" second="g28_sig_plus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g28_sig_plus1" second="b_a_sig1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_a_sig1_1" second="g_c_sig_plus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_plus1" second="b_a_sig1_1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_a_sig1_2" second="g_c_sig_plus3" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_plus3" second="b_a_sig1_2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_a_sig1_3" second="g_b_sig_plus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_plus1" second="b_a_sig1_3" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_a_sig1_4" second="g_b_sig_plus4" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_plus4" second="b_a_sig1_4" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_a_sig_minus1" second="b_a_sig0_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_a_sig_minus1" second="b_a_sig0_2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_a_sig0_1" second="b_a_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_a_sig0_2" second="b_a_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_a_sig0" second="g28_sig_minus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g28_sig_minus1" second="b_a_sig0" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_a_sig0_1" second="g_c_sig_minus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_minus1" second="b_a_sig0_1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_a_sig0_2" second="g_b_sig_minus3" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_minus3" second="b_a_sig0_2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_c_sig_plus1" second="b_c_sig1_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_c_sig_plus1" second="b_c_sig1_2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_c_sig_plus1" second="b_c_sig1_3" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_c_sig_plus1" second="b_c_sig1_4" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_c_sig1_1" second="b_c_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_c_sig1_2" second="b_c_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_c_sig1_3" second="b_c_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_c_sig1_4" second="b_c_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_c_sig1" second="g_a_sig_plus4" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_plus4" second="b_c_sig1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_c_sig1_1" second="g_a_sig_plus6" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_plus6" second="b_c_sig1_1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_c_sig1_2" second="g28_sig_plus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g28_sig_plus1" second="b_c_sig1_2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_c_sig1_3" second="g_b_sig_plus2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_plus2" second="b_c_sig1_3" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_c_sig1_4" second="g_b_sig_plus4" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_plus4" second="b_c_sig1_4" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_c_sig_minus1" second="b_c_sig0_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_c_sig_minus1" second="b_c_sig0_2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_c_sig0_1" second="b_c_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_c_sig0_2" second="b_c_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_c_sig0" second="g_a_sig_minus3" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_minus3" second="b_c_sig0" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_c_sig0_1" second="g28_sig_minus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g28_sig_minus1" second="b_c_sig0_1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_c_sig0_2" second="g_b_sig_minus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_minus1" second="b_c_sig0_2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x6_sig_plus1" second="x6_sig1_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x6_sig_plus1" second="x6_sig1_2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x6_sig1_1" second="x6_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x6_sig1_2" second="x6_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x6_sig1" second="g_c_sig_plus2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_plus2" second="x6_sig1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x6_sig1_1" second="g_b_sig_plus2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_plus2" second="x6_sig1_1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x6_sig1_2" second="g_b_sig_plus5" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_plus5" second="x6_sig1_2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x6_sig_minus1" second="x6_sig0_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x6_sig_minus1" second="x6_sig0_2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x6_sig0_1" second="x6_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x6_sig0_2" second="x6_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x6_sig0" second="g_c_sig_minus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_minus1" second="x6_sig0" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x6_sig0_1" second="g_c_sig_minus3" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_minus3" second="x6_sig0_1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x6_sig0_2" second="g_b_sig_minus3" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_minus3" second="x6_sig0_2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x1_sig_plus1" second="x1_sig1_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x1_sig_plus1" second="x1_sig1_2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x1_sig1_1" second="x1_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x1_sig1_2" second="x1_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x1_sig1" second="g_a_sig_plus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_plus1" second="x1_sig1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x1_sig1_1" second="g_b_sig_plus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_plus1" second="x1_sig1_1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x1_sig1_2" second="g_b_sig_plus5" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_plus5" second="x1_sig1_2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x1_sig_minus1" second="x1_sig0_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x1_sig_minus1" second="x1_sig0_2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x1_sig0_1" second="x1_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x1_sig0_2" second="x1_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x1_sig0" second="g_a_sig_minus2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_minus2" second="x1_sig0" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x1_sig0_1" second="g_a_sig_minus3" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_minus3" second="x1_sig0_1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x1_sig0_2" second="g_b_sig_minus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_minus1" second="x1_sig0_2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig_plus1" second="go_sig1_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig_plus1" second="go_sig1_2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig_plus1" second="go_sig1_3" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig_plus1" second="go_sig1_4" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig_plus1" second="go_sig1_5" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig_plus1" second="go_sig1_6" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig_plus1" second="go_sig1_7" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig_plus1" second="go_sig1_8" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig_plus1" second="go_sig1_9" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig_plus1" second="go_sig1_10" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig_plus1" second="go_sig1_11" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig_plus1" second="go_sig1_12" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig_plus1" second="go_sig1_13" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig_plus1" second="go_sig1_14" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig_plus1" second="go_sig1_15" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig_plus1" second="go_sig1_16" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig_plus1" second="go_sig1_17" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_1" second="go_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_2" second="go_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_3" second="go_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_4" second="go_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_5" second="go_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_6" second="go_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_7" second="go_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_8" second="go_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_9" second="go_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_10" second="go_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_11" second="go_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_12" second="go_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_13" second="go_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_14" second="go_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_15" second="go_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_16" second="go_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_17" second="go_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1" second="g_a_sig_plus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_plus1" second="go_sig1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_1" second="g_a_sig_plus2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_plus2" second="go_sig1_1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_2" second="g_a_sig_plus3" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_plus3" second="go_sig1_2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_3" second="g_a_sig_plus4" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_plus4" second="go_sig1_3" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_4" second="g_a_sig_plus5" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_plus5" second="go_sig1_4" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_5" second="g_a_sig_plus6" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_plus6" second="go_sig1_5" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_6" second="g_c_sig_plus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_plus1" second="go_sig1_6" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_7" second="g_c_sig_plus2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_plus2" second="go_sig1_7" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_8" second="g_c_sig_plus3" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_plus3" second="go_sig1_8" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_9" second="g_c_sig_plus4" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_plus4" second="go_sig1_9" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_10" second="g_c_sig_plus5" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_plus5" second="go_sig1_10" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_11" second="g_c_sig_plus6" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_plus6" second="go_sig1_11" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_12" second="g_b_sig_plus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_plus1" second="go_sig1_12" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_13" second="g_b_sig_plus2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_plus2" second="go_sig1_13" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_14" second="g_b_sig_plus3" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_plus3" second="go_sig1_14" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_15" second="g_b_sig_plus4" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_plus4" second="go_sig1_15" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_16" second="g_b_sig_plus5" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_plus5" second="go_sig1_16" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig1_17" second="g_b_sig_plus6" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_plus6" second="go_sig1_17" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig_minus1" second="go_sig0_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig_minus1" second="go_sig0_2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig0_1" second="go_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig0_2" second="go_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig0" second="g_a_sig_minus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_minus1" second="go_sig0" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig0_1" second="g_c_sig_minus2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_minus2" second="go_sig0_1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="go_sig0_2" second="g_b_sig_minus2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_minus2" second="go_sig0_2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x5_sig_plus1" second="x5_sig1_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x5_sig_plus1" second="x5_sig1_2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x5_sig1_1" second="x5_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x5_sig1_2" second="x5_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x5_sig1" second="g_a_sig_plus5" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_plus5" second="x5_sig1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x5_sig1_1" second="g_a_sig_plus6" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_plus6" second="x5_sig1_1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x5_sig1_2" second="g_c_sig_plus5" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_plus5" second="x5_sig1_2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x5_sig_minus1" second="x5_sig0_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x5_sig_minus1" second="x5_sig0_2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x5_sig0_1" second="x5_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x5_sig0_2" second="x5_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x5_sig0" second="g_a_sig_minus2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_a_sig_minus2" second="x5_sig0" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x5_sig0_1" second="g_c_sig_minus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_minus1" second="x5_sig0_1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x5_sig0_2" second="g_c_sig_minus3" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_minus3" second="x5_sig0_2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x4_sig_plus1" second="x4_sig1_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x4_sig_plus1" second="x4_sig1_2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x4_sig1_1" second="x4_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x4_sig1_2" second="x4_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x4_sig1" second="g_c_sig_plus4" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_plus4" second="x4_sig1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x4_sig1_1" second="g_c_sig_plus6" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_plus6" second="x4_sig1_1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x4_sig1_2" second="g_b_sig_plus6" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_plus6" second="x4_sig1_2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x4_sig_minus1" second="x4_sig0_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x4_sig_minus1" second="x4_sig0_2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x4_sig0_1" second="x4_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x4_sig0_2" second="x4_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x4_sig0" second="g_c_sig_minus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_minus1" second="x4_sig0" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x4_sig0_1" second="g_b_sig_minus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_minus1" second="x4_sig0_1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="x4_sig0_2" second="g_b_sig_minus3" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_minus3" second="x4_sig0_2" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_plus1" second="g_c_sig1_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_plus2" second="g_c_sig1_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_plus3" second="g_c_sig1_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_plus4" second="g_c_sig1_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_plus5" second="g_c_sig1_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_plus6" second="g_c_sig1_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig1_1" second="g_c_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig1_1" second="g_c_sig_minus2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig1_1" second="g_c_sig_minus3" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig1" second="b_c_sig_plus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_c_sig_plus1" second="g_c_sig1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig1_1" second="c_sig_plus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="c_sig_plus1" second="g_c_sig1_1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_minus1" second="g_c_sig0_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_minus2" second="g_c_sig0_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig_minus3" second="g_c_sig0_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig0_1" second="g_c_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig0_1" second="g_c_sig_plus2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig0_1" second="g_c_sig_plus3" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig0_1" second="g_c_sig_plus4" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig0_1" second="g_c_sig_plus5" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig0_1" second="g_c_sig_plus6" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig0" second="b_c_sig_minus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_c_sig_minus1" second="g_c_sig0" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_c_sig0_1" second="c_sig_minus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="c_sig_minus1" second="g_c_sig0_1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_plus1" second="g_b_sig1_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_plus2" second="g_b_sig1_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_plus3" second="g_b_sig1_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_plus4" second="g_b_sig1_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_plus5" second="g_b_sig1_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_plus6" second="g_b_sig1_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig1_1" second="g_b_sig_minus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig1_1" second="g_b_sig_minus2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig1_1" second="g_b_sig_minus3" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig1" second="b_b_sig_plus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_b_sig_plus1" second="g_b_sig1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig1_1" second="b_sig_plus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_sig_plus1" second="g_b_sig1_1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_minus1" second="g_b_sig0_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_minus2" second="g_b_sig0_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig_minus3" second="g_b_sig0_1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig0_1" second="g_b_sig_plus1" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig0_1" second="g_b_sig_plus2" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig0_1" second="g_b_sig_plus3" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig0_1" second="g_b_sig_plus4" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig0_1" second="g_b_sig_plus5" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig0_1" second="g_b_sig_plus6" selected="false">
+      <connection arrow="true" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig0" second="b_b_sig_minus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_b_sig_minus1" second="g_b_sig0" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="g_b_sig0_1" second="b_sig_minus1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="b_sig_minus1" second="g_b_sig0_1" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+  </document>
+</workcraft>

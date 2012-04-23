@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<workcraft>
+  <options tab="0"/>
+  <editor>
+    <options grid="false" ids="false" labels="true" snap="true"/>
+    <viewstate s="0.68301326" tx="-0.1785253" ty="-0.12449229"/>
+  </editor>
+  <document model-uuid="65f89260-641d-11db-bd13-0800200c9a66">
+    <editable class="workcraft.editor.GroupNode" id="_root" label="" rotation="0" selected="false">
+      <transform>
+        <vec3 x="0.0" y="0.0" z="0.0"/>
+        <vec3 x="1.0" y="1.0" z="1.0"/>
+      </transform>
+      <custom-properties/>
+      <editable class="workcraft.petri.EditablePetriPlace" id="p22" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.3" y="0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="t1_copy" label="x-/1" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.70000005" y="0.09999999" z="0.1"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="t1_copy_copy" label="x-" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.70000005" y="0.09999999" z="0.1"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="p0" label="x = low" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.2" y="-0.1" z="-0.1"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="p0_copy_copy" label="x = low" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.9" y="-0.1" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="p1_copy" label="x = high" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.90000004" y="-0.1" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="t0_copy_copy" label="x+" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.70000005" y="-0.3" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="t0" label="x+/1" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.0" y="-0.3" z="-0.1"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="p1" label="x = high" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.2" y="-0.1" z="-0.1"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="t23" label="x-/2" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.7" y="0.3" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="p21" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="1.0" y="0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="t1" label="x-" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.0" y="0.1" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="t19" label="x+/2" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.0" y="-0.5" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="p1_copy_copy" label="x = high" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.5" y="-0.1" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="p0_copy" label="x = low" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.50000006" y="-0.1" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="p25" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.0" y="-0.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="p20" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.3" y="-0.8" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="p23" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="0.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="p24" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="t0_copy" label="x+" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.70000005" y="-0.3" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="p19" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="0.4" y="-0.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="p18" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.3" y="-0.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <custom-properties/>
+        <place tiny="false" tokens="0"/>
+      </editable>
+    </editable>
+    <editable-connection first="p0" second="t0" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.31249988" y="0.31249988"/>
+          <vec2 x="-0.3125" y="0.6875"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="t0" second="p1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.31249988" y="0.31249988"/>
+          <vec2 x="-0.3125" y="0.6875"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="p1" second="t1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.31249988" y="0.31249988"/>
+          <vec2 x="-0.25" y="0.74999994"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="t1" second="p0" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.31249997" y="0.31249997"/>
+          <vec2 x="-0.24999991" y="0.74999976"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="p0" second="t19" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.12499998" y="0.24999996"/>
+          <vec2 x="-0.3" y="0.84999996"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="t19" second="p1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.24999993" y="0.124999925"/>
+          <vec2 x="-0.12500009" y="0.7499999"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="p0_copy" second="t0_copy" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.31249988" y="0.31249988"/>
+          <vec2 x="-0.3125" y="0.6875"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="t0_copy" second="p1_copy" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.31249988" y="0.31249988"/>
+          <vec2 x="-0.3125" y="0.6875"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="p1_copy" second="t1_copy" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.31249988" y="0.31249988"/>
+          <vec2 x="-0.25" y="0.74999994"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="t1_copy" second="p0_copy" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.31249997" y="0.31249997"/>
+          <vec2 x="-0.24999991" y="0.74999976"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="p1_copy" second="t23" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.17500006" y="0.34999996"/>
+          <vec2 x="-0.24999994" y="0.87499976"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="t23" second="p0_copy" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.25000003" y="0.12499997"/>
+          <vec2 x="-0.17500006" y="0.65"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="p0_copy_copy" second="t0_copy_copy" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.31249988" y="0.31249988"/>
+          <vec2 x="-0.3125" y="0.6875"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="t0_copy_copy" second="p1_copy_copy" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.31249988" y="0.31249988"/>
+          <vec2 x="-0.3125" y="0.6875"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="p1_copy_copy" second="t1_copy_copy" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.31249988" y="0.31249988"/>
+          <vec2 x="-0.25" y="0.74999994"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="t1_copy_copy" second="p0_copy_copy" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.31249997" y="0.31249997"/>
+          <vec2 x="-0.24999991" y="0.74999976"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="p20" second="t19" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t19" second="p20" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t0" second="p18" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t1_copy_copy" second="p21" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t1" second="p22" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t23" second="p23" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t1_copy" second="p24" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t0_copy" second="p25" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+    <editable-connection first="t0_copy_copy" second="p19" selected="false">
+      <connection arrow="false" type="straight"/>
+    </editable-connection>
+  </document>
+</workcraft>

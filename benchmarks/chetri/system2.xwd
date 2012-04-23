@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workcraft>
+<options tab="2"/>
+<editor>
+<options grid="true" ids="false" labels="true" snap="true"/>
+<viewstate s="0.5644739" tx="1.3948071" ty="-0.6657123"/>
+</editor>
+<document model-uuid="e9137910-8535-11db-b606-0800200c9a66">
+<editable class="workcraft.editor.GroupNode" id="_root" label="" selected="false">
+<transform>
+<vec3 x="0.0" y="0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<editable class="workcraft.chetri.EditableChetriTransition" id="t1" label="" selected="false">
+<transform>
+<vec3 x="2.1000001" y="0.0" z="0.2"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition script="" token="0"/>
+</editable>
+<editable class="workcraft.chetri.EditableChetriTransition" id="t5" label="" selected="false">
+<transform>
+<vec3 x="2.3999999" y="-1.9" z="-0.39999998"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition script="" token="0"/>
+</editable>
+<editable class="workcraft.chetri.EditableChetriPlace" id="p7" label="" selected="false">
+<transform>
+<vec3 x="2.2" y="-1.9" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0" type="2"/>
+</editable>
+<editable class="workcraft.chetri.EditableChetriPlace" id="p9" label="" selected="true">
+<transform>
+<vec3 x="3.0" y="-1.7" z="-0.39999998"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0" type="1"/>
+</editable>
+<editable class="workcraft.chetri.EditableChetriTransition" id="t9" label="" selected="false">
+<transform>
+<vec3 x="2.1" y="0.20000002" z="1.4901161E-8"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition script="" token="0"/>
+</editable>
+<editable class="workcraft.chetri.EditableChetriPlace" id="p20" label="" selected="false">
+<transform>
+<vec3 x="0.2" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0" type="0"/>
+</editable>
+<editable class="workcraft.chetri.EditableChetriPlace" id="p4" label="" selected="false">
+<transform>
+<vec3 x="2.7" y="-2.4" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0" type="0"/>
+</editable>
+<editable class="workcraft.chetri.EditableChetriPlace" id="p0" label="" selected="false">
+<transform>
+<vec3 x="2.4" y="0.0" z="0.2"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0" type="0"/>
+</editable>
+<editable class="workcraft.chetri.EditableChetriTransition" id="t3" label="A" selected="false">
+<transform>
+<vec3 x="2.9" y="-2.4" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition script="p5.setTokens(1-p5.getTokens()), p9.setTokens(1-p9.getTokens())" token="0"/>
+</editable>
+<editable class="workcraft.chetri.EditableChetriPlace" id="p22" label="" selected="false">
+<transform>
+<vec3 x="0.19999993" y="0.2" z="0.5"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0" type="0"/>
+</editable>
+<editable class="workcraft.chetri.EditableChetriPlace" id="p18" label="" selected="false">
+<transform>
+<vec3 x="2.9" y="0.2" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0" type="1"/>
+</editable>
+<editable class="workcraft.chetri.EditableChetriTransition" id="t6" label="" selected="false">
+<transform>
+<vec3 x="2.6" y="-1.7" z="-0.39999998"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition script="" token="0"/>
+</editable>
+<editable class="workcraft.chetri.EditableChetriPlace" id="p19" label="" selected="false">
+<transform>
+<vec3 x="1.9" y="0.0" z="0.2"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0" type="0"/>
+</editable>
+<editable class="workcraft.chetri.EditableChetriPlace" id="p1" label="" selected="false">
+<transform>
+<vec3 x="2.4" y="0.20000002" z="1.4901161E-8"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0" type="0"/>
+</editable>
+<editable class="workcraft.chetri.EditableChetriPlace" id="p6" label="" selected="false">
+<transform>
+<vec3 x="2.6" y="-1.9" z="-0.39999998"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0" type="0"/>
+</editable>
+<editable class="workcraft.chetri.EditableChetriPlace" id="p10" label="" selected="false">
+<transform>
+<vec3 x="2.2" y="-1.7" z="-0.39999998"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0" type="2"/>
+</editable>
+<editable class="workcraft.chetri.EditableChetriTransition" id="t10" label="" selected="false">
+<transform>
+<vec3 x="0.7" y="0.4" z="-0.2"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition script="" token="0"/>
+</editable>
+<editable class="workcraft.chetri.EditableChetriPlace" id="p23" label="" selected="false">
+<transform>
+<vec3 x="1.5" y="0.4" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0" type="0"/>
+</editable>
+<editable class="workcraft.chetri.EditableChetriPlace" id="p3" label="" selected="false">
+<transform>
+<vec3 x="2.7" y="-2.2" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="1" type="0"/>
+</editable>
+<editable class="workcraft.chetri.EditableChetriTransition" id="t2" label="B" selected="false">
+<transform>
+<vec3 x="2.5" y="-2.4" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition script="p18.setTokens(1-p18.getTokens())" token="0"/>
+</editable>
+<editable class="workcraft.chetri.EditableChetriTransition" id="t17" label="" selected="false">
+<transform>
+<vec3 x="0.6999999" y="0.20000002" z="1.4901161E-8"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition script="" token="0"/>
+</editable>
+<editable class="workcraft.chetri.EditableChetriTransition" id="t20" label="" selected="false">
+<transform>
+<vec3 x="-0.3" y="0.2" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition script="" token="0"/>
+</editable>
+<editable class="workcraft.chetri.EditableChetriPlace" id="p2" label="" selected="false">
+<transform>
+<vec3 x="2.4" y="0.4" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0" type="0"/>
+</editable>
+<editable class="workcraft.chetri.EditableChetriTransition" id="t15" label="" selected="false">
+<transform>
+<vec3 x="0.7" y="1.4901161E-8" z="0.70000005"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition script="" token="0"/>
+</editable>
+<editable class="workcraft.chetri.EditableChetriPlace" id="p5" label="" selected="false">
+<transform>
+<vec3 x="3.0" y="-1.9" z="-0.39999998"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0" type="1"/>
+</editable>
+<editable class="workcraft.chetri.EditableChetriPlace" id="p21" label="" selected="false">
+<transform>
+<vec3 x="1.8999999" y="0.20000002" z="1.4901161E-8"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0" type="0"/>
+</editable>
+<editable class="workcraft.chetri.EditableChetriTransition" id="t0" label="" selected="false">
+<transform>
+<vec3 x="2.6999998" y="0.20000002" z="1.4901161E-8"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition script="" token="0"/>
+</editable>
+<editable class="workcraft.chetri.EditableChetriTransition" id="t8" label="" selected="false">
+<transform>
+<vec3 x="1.8000001" y="0.4" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition script="" token="0"/>
+</editable>
+<editable class="workcraft.chetri.EditableChetriTransition" id="t4" label="" selected="false">
+<transform>
+<vec3 x="2.8" y="-1.9" z="-0.39999998"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<transition script="" token="0"/>
+</editable>
+<editable class="workcraft.chetri.EditableChetriPlace" id="p24" label="" selected="false">
+<transform>
+<vec3 x="0.2" y="0.4" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0" type="0"/>
+</editable>
+<editable class="workcraft.chetri.EditableChetriPlace" id="p26" label="" selected="false">
+<transform>
+<vec3 x="-0.8000002" y="0.2" z="0.5"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0" type="2"/>
+</editable>
+</editable>
+<editable-connection first="p3" second="t3" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t3" second="p4" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p4" second="t2" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t2" second="p3" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p5" second="t4" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t4" second="p6" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p6" second="t5" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t5" second="p7" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p9" second="t6" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t6" second="p10" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p19" second="t15" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t15" second="p20" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p21" second="t17" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t17" second="p22" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p19" second="t17" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p20" second="t20" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p22" second="t20" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p24" second="t20" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t20" second="p26" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p18" second="t0" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t0" second="p0" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t0" second="p1" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t0" second="p2" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p0" second="t1" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t1" second="p19" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p2" second="t8" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t8" second="p23" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p1" second="t9" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t9" second="p21" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p23" second="t10" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="t10" second="p24" selected="false">
+<connection/>
+</editable-connection>
+<editable-connection first="p21" second="t8" selected="false">
+<connection/>
+</editable-connection>
+</document>
+</workcraft>

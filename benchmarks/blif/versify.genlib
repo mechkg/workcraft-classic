@@ -1,0 +1,180 @@
+# For doubts concerning this library file, please read the documentation
+# concerning GENLIB format distributed with SIS
+
+GATE	"inv"		32	y=!a;
+PIN	* NONINV 1 999 1 .2 1 .2
+# Note that neither the gate area (32 in this example), nor what follows
+# the keyword PIN, is used by VERSIFY. 
+# That information is parsed and checked to be sintactically correct, though.
+
+GATE	"buf"		32	y=a;
+PIN	* NONINV 1 999 1 .2 1 .2
+# There is no harm to versify if PIN information is not included
+
+GATE	"and2"		32	y=a*b;
+PIN	* NONINV 1 999 1 .2 1 .2
+
+GATE	"and4"		32	y=a*b*c*d;
+PIN	* NONINV 1 999 1 .2 1 .2
+
+GATE	"or2"		32	y=a+b;
+PIN	* NONINV 1 999 1 .2 1 .2
+
+GATE	"or4"		32	y=a+b+c+d;
+PIN	* NONINV 1 999 1 .2 1 .2
+
+# A memory element, a gate whose next value depends also on its current value,
+# must be specified as follows in SIS...
+LATCH	"c2"	50	y = a*b+(a+b)*y_NEXT;
+PIN	a	NONINV 1 999 1 .2 1 .2
+PIN	b	NONINV 1 999 1 .2 1 .2
+SEQ	y y_NEXT ASYNCH
+
+
+# The line above would be a comment if read by SIS.  For VERSIFY, it 
+# indicates that semi-modularity violations between outputs "mea" and "meb",
+# must not be considered.
+
+
+
+# The rest of this file has been extracted from the library "async.genlib"
+# distributed with SIS
+
+# --- COMBINATIONAL GATES
+
+GATE	"inv:combinational"		16	O=!A; 
+PIN	* INV 1 999 1 .2 1 .2
+
+GATE	"nor2:combinational"		24	O=!(A+B);
+PIN	* INV 1 999 1 .2 1 .2
+
+GATE	"nor3:combinational"		32	O=!(A+B+C);
+PIN	* INV 1 999 1 .2 1 .2
+
+GATE	"nor4:combinational"		40	O=!(A+B+C+D);
+PIN	* INV 1 999 1 .2 1 .2
+
+GATE	"nand2:combinational"		24	O=!(A*B);
+PIN	* INV 1 999 1 .2 1 .2
+
+GATE	"nand3:combinational"		32	O=!(A*B*C);
+PIN	* INV 1 999 1 .2 1 .2
+
+GATE	"nand4:combinational"		40	O=!(A*B*C*D);
+PIN	* INV 1 999 1 .2 1 .2
+
+GATE	"and2:combinational"		32	O=A*B;
+PIN	* NONINV 1 999 1 .2 1 .2
+
+GATE	"and3:combinational"		40	O=A*B*C;
+PIN	* NONINV 1 999 1 .2 1 .2
+
+GATE	"and4:combinational"		48	O=A*B*C*D;	 
+PIN	* NONINV 1 999 1 .2 1 .2
+
+GATE	"or2:combinational"		32	O=A+B;
+PIN	* NONINV 1 999 1 .2 1 .2
+
+GATE	"or3:combinational"		40	O=A+B+C;
+PIN	* NONINV 1 999 1 .2 1 .2
+
+GATE	"or4:combinational"		48	O=A+B+C+D;
+PIN	* NONINV 1 999 1 .2 1 .2
+
+GATE	"aoi22:combinational"		40	O=!(A*B+C*D);
+PIN	* INV 1 999 1 .2 1 .2
+
+GATE	"aoi12:combinational"		32	O=!(A+B*C);
+PIN	* INV 1 999 1 .2 1 .2
+
+GATE	"oai22:combinational"		40	O=!((A+B)*(C+D));
+PIN	* INV 1 999 1 .2 1 .2
+
+GATE	"oai12:combinational"		32	O=!(A*(B+C));
+PIN	* INV 1 999 1 .2 1 .2
+
+GATE	"ao22:combinational"		56	O=A*B+C*D;
+PIN	* NONINV 1 999 1 .2 1 .2
+
+GATE	"ao222:combinational"		72	O=A*B+C*D+E*F;
+PIN	* NONINV 1 999 1 .2 1 .2
+
+GATE	"ao2222:combinational"		96	O=A*B+C*D+E*F+G*H; 
+PIN	* NONINV 1 999 1 .2 1 .2
+
+GATE	"ao33:combinational"		64	O=A*B*C+D*E*F;
+PIN	* NONINV 1 999 1 .2 1 .2
+
+GATE	"xor:combinational"		40	O=A*!B+!A*B;
+PIN	* UNKNOWN 1 999 1 .2 1 .2
+
+# Only one definition of each gate (even they are equivalent) is allowed.
+#GATE	"xor:combinational"		40	O=!(A*B+!A*!B);
+#PIN	* UNKNOWN 1 999 1 .2 1 .2
+
+GATE	"xorbar:combinational"		48	O=A*B+!A*!B;
+PIN	* UNKNOWN 1 999 1 .2 1 .2
+
+# Only one definition of each gate (even they are equivalent) is allowed.
+#GATE	"xorbar:combinational"		48	O=!(A*!B+!A*B);
+#PIN	* UNKNOWN 1 999 1 .2 1 .2
+
+GATE	"invand:combinational"		32	O=!A*B;			
+PIN	A INV 1 999 1 .2 1 .2
+PIN	B NONINV 1 999 1 .2 1 .2
+
+GATE	"invor:combinational"		32	O=A+!B;
+PIN	A NONINV 1 999 1 .2 1 .2
+PIN	B INV 1 999 1 .2 1 .2
+
+GATE	"mux2:combinational"		48	O=D1*SEL+D2*!SEL;		
+PIN	D1 NONINV 1 999 1 .2 1 .2
+PIN	D2 NONINV 1 999 1 .2 1 .2
+PIN	SEL UNKNOWN 1 999 1 .2 1 .2
+
+GATE 	"const1:combinational"		8	O=CONST1;
+GATE 	"const0:combinational"		8	O=CONST0;
+
+# --- ASYNCH LATCHES
+
+# Pure delay
+LATCH   "delay:asynch"  10000   Q=D;
+PIN D   NONINV 1 999 0.00001 0.00001 0.00001 0.00001
+SEQ Q ANY ASYNCH
+
+# Cross-coupled NAND (SR latch)
+LATCH	"sr_nand:asynch"	40	Q=!S+R*Q_NEXT;
+PIN	S	INV 1 999 1 .2 1 .2
+PIN	R	NONINV 1 999 1 .2 1 .2
+SEQ	Q Q_NEXT ASYNCH
+
+# Cross-coupled NOR (SR latch)
+LATCH	"sr_nor:asynch"	40	Q=S+!R*Q_NEXT;
+PIN	S	NONINV 1 999 1 .2 1 .2
+PIN	R	INV 1 999 1 .2 1 .2
+SEQ	Q Q_NEXT ASYNCH
+
+# 1 of 2 C-element
+LATCH	"c_element1:asynch"	50	C = A*B+A*C_NEXT+B*C_NEXT;
+PIN	A	NONINV 1 999 1 .2 1 .2
+PIN	B	NONINV 1 999 1 .2 1 .2
+SEQ	C C_NEXT ASYNCH
+
+# 2 of 2 C-element
+LATCH	"c_element2:asynch"	50	C = A*B+(A+B)*C_NEXT;
+PIN	A	NONINV 1 999 1 .2 1 .2
+PIN	B	NONINV 1 999 1 .2 1 .2
+SEQ	C C_NEXT ASYNCH
+
+# 1 of 2 Gated Latch
+LATCH	"gated_latch1:asynch"	40	Q=D*G+Q_NEXT*(!G+D);
+PIN	D	NONINV 1 999 1 .2 1 .2
+PIN	G	UNKNOWN 1 999 1 .2 1 .2
+SEQ	Q Q_NEXT ASYNCH
+
+# 2 of 2 Gated Latch
+LATCH	"gated_latch2:asynch"	40	Q=D*G+Q_NEXT*!G+Q_NEXT*D;
+PIN	D	NONINV 1 999 1 .2 1 .2
+PIN	G	UNKNOWN 1 999 1 .2 1 .2
+SEQ	Q Q_NEXT ASYNCH
+

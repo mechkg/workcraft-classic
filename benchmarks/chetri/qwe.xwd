@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workcraft>
+<options tab="0"/>
+<editor>
+<options grid="true" ids="true" labels="true" snap="true"/>
+<viewstate s="1.0" tx="0.0" ty="0.0"/>
+</editor>
+<document model-uuid="a57b3350-73d3-11db-9fe1-0800200c9a66">
+<editable class="workcraft.editor.GroupNode" id="_root" label="" selected="false">
+<transform>
+<vec3 x="0.0" y="0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<editable class="workcraft.spreadtoken.EditableSTLogic" id="l1" label="" selected="false">
+<transform>
+<vec3 x="-0.1" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<st-logic eval-func="" reset-func=""/>
+</editable>
+<editable class="workcraft.spreadtoken.EditableSTRegister" id="r0" label="" selected="false">
+<transform>
+<vec3 x="0.5" y="-0.1" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<place tokens="0"/>
+</editable>
+<editable class="workcraft.spreadtoken.EditableSTLogic" id="l0" label="" selected="false">
+<transform>
+<vec3 x="0.3" y="-0.3" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<st-logic eval-func="" reset-func=""/>
+</editable>
+</editable>
+</document>
+</workcraft>

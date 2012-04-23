@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workcraft>
+  <options tab="2"/>
+  <editor>
+    <options grid="true" ids="true" labels="true" snap="true"/>
+    <viewstate s="1.0" tx="0.0" ty="0.0"/>
+  </editor>
+  <document model-uuid="65f89260-641d-11db-bd13-0800200c9a66">
+    <editable class="workcraft.editor.GroupNode" id="_root" label="" rotation="0" selected="false">
+      <transform>
+        <vec3 x="0.0" y="0.0" z="0.0"/>
+        <vec3 x="1.0" y="1.0" z="1.0"/>
+      </transform>
+      <editable class="workcraft.petri.EditablePetriTransition" id="x3_sig_plus1" label="bd 1.0 2.0" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.8000002" y="-0.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x3_sig0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.6000001" y="-0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="c_sig1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.4000001" y="1.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x5_sig0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-3.4" y="-0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x6_sig1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.6" y="-0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="x6_sig_plus1" label="bd 1.0 2.0" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="-0.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x1_sig0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.0" y="-0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="c_sig_plus1" label="bd 1.0 2.0" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.2" y="1.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="x2_sig_minus1" label="bd 0 0" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.0" y="-0.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="go_sig_plus1" label="bd 1.0 2.0" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-5.2000003" y="-0.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x2_sig0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.8" y="-0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="a_sig1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.2" y="1.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="x5_sig_plus1" label="bd 1.0 2.0" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-3.6000001" y="-0.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="c_sig_minus1" label="bd 0 0" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.2" y="1.4000001" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="b_sig_minus1" label="bd 0 0" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="1.4000001" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x5_sig1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-3.8000002" y="-0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="x3_sig_minus1" label="bd 0 0" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.8000002" y="-0.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x6_sig0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.2" y="-0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="go_sig0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-5.0000005" y="-0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="x1_sig_plus1" label="bd 1.0 2.0" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.2" y="-0.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="x2_sig_plus1" label="bd 1.0 2.0" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.0" y="-0.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="x5_sig_minus1" label="bd 0 0" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-3.6000001" y="-0.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="go_sig1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-5.4" y="-0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="x1_sig_minus1" label="bd 0 0" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.2" y="-0.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x3_sig1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-3.0000002" y="-0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="a_sig_minus1" label="bd 0 0" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.0" y="1.4000001" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="go_sig_minus1" label="bd 0 0" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-5.2000003" y="-0.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="b_sig_plus1" label="bd 1.0 2.0" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="1.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="x4_sig_minus1" label="bd 0 0" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-4.4" y="-0.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x4_sig1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-4.6" y="-0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x1_sig1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.4000001" y="-0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="x4_sig_plus1" label="bd 1.0 2.0" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-4.4" y="-0.6" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="x6_sig_minus1" label="bd 0 0" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.4" y="-0.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="b_sig0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.2" y="1.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="b_sig1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-0.6" y="1.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place tokens="0"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriTransition" id="a_sig_plus1" label="bd 1.0 2.0" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.0" y="1.0" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <transition/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="a_sig0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.8" y="1.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="c_sig0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-1.0" y="1.2" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x4_sig0" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-4.2000003" y="-0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place tokens="1"/>
+      </editable>
+      <editable class="workcraft.petri.EditablePetriPlace" id="x2_sig1" label="" rotation="0" selected="false">
+        <transform>
+          <vec3 x="-2.2" y="-0.4" z="0.0"/>
+          <vec3 x="1.0" y="1.0" z="1.0"/>
+        </transform>
+        <place tokens="0"/>
+      </editable>
+    </editable>
+    <editable-connection first="x6_sig0" second="x6_sig_plus1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.32999998" y="0.33"/>
+          <vec2 x="-0.32999998" y="0.67"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="x6_sig_plus1" second="x6_sig1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.32999998" y="0.32999998"/>
+          <vec2 x="-0.32999995" y="0.67"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="x6_sig1" second="x6_sig_minus1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.32999998" y="0.32999998"/>
+          <vec2 x="-0.32999995" y="0.67"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="x6_sig_minus1" second="x6_sig0" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.32999998" y="0.32999998"/>
+          <vec2 x="-0.33" y="0.66999996"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="b_sig0" second="b_sig_plus1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.33000013" y="0.3300002"/>
+          <vec2 x="-0.33" y="0.67"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="b_sig_plus1" second="b_sig1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.32999995" y="0.32999995"/>
+          <vec2 x="-0.33000007" y="0.66999984"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="b_sig1" second="b_sig_minus1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.33000016" y="0.33000016"/>
+          <vec2 x="-0.33000004" y="0.6700001"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="b_sig_minus1" second="b_sig0" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.32999998" y="0.32999992"/>
+          <vec2 x="-0.33000007" y="0.6699998"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="c_sig0" second="c_sig_plus1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.33000013" y="0.33000013"/>
+          <vec2 x="-0.33000013" y="0.66999984"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="c_sig_plus1" second="c_sig1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.33000013" y="0.33000013"/>
+          <vec2 x="-0.33000013" y="0.66999984"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="c_sig1" second="c_sig_minus1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.33000013" y="0.33000013"/>
+          <vec2 x="-0.33000013" y="0.66999984"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="c_sig_minus1" second="c_sig0" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.33000013" y="0.33000013"/>
+          <vec2 x="-0.33000013" y="0.66999984"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="x1_sig0" second="x1_sig_plus1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.32999998" y="0.32999992"/>
+          <vec2 x="-0.33000013" y="0.6699998"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="x1_sig_plus1" second="x1_sig1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.33000016" y="0.33000016"/>
+          <vec2 x="-0.33000004" y="0.6700001"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="x1_sig1" second="x1_sig_minus1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.32999995" y="0.32999995"/>
+          <vec2 x="-0.33000007" y="0.66999984"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="x1_sig_minus1" second="x1_sig0" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.33000013" y="0.33000022"/>
+          <vec2 x="-0.32999998" y="0.6700001"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="a_sig0" second="a_sig_plus1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.33000013" y="0.33000013"/>
+          <vec2 x="-0.33000013" y="0.66999984"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="a_sig_plus1" second="a_sig1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.32999983" y="0.32999983"/>
+          <vec2 x="-0.33000013" y="0.66999984"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="a_sig1" second="a_sig_minus1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.33000013" y="0.33000013"/>
+          <vec2 x="-0.32999983" y="0.67000014"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="a_sig_minus1" second="a_sig0" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.33000013" y="0.33000013"/>
+          <vec2 x="-0.33000013" y="0.66999984"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="x2_sig0" second="x2_sig_plus1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.32999998" y="0.32999992"/>
+          <vec2 x="-0.33000013" y="0.6699998"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="x2_sig_plus1" second="x2_sig1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.32999986" y="0.32999986"/>
+          <vec2 x="-0.33000004" y="0.6700001"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="x2_sig1" second="x2_sig_minus1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.32999995" y="0.32999995"/>
+          <vec2 x="-0.32999977" y="0.67000014"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="x2_sig_minus1" second="x2_sig0" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.33000013" y="0.33000022"/>
+          <vec2 x="-0.32999998" y="0.6700001"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="x3_sig0" second="x3_sig_plus1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.32999998" y="0.32999992"/>
+          <vec2 x="-0.32999983" y="0.6700001"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="x3_sig_plus1" second="x3_sig1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.32999986" y="0.32999986"/>
+          <vec2 x="-0.33000004" y="0.6700001"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="x3_sig1" second="x3_sig_minus1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.32999995" y="0.32999995"/>
+          <vec2 x="-0.32999977" y="0.67000014"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="x3_sig_minus1" second="x3_sig0" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.32999983" y="0.32999992"/>
+          <vec2 x="-0.32999998" y="0.6700001"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="x5_sig0" second="x5_sig_plus1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.32999998" y="0.32999992"/>
+          <vec2 x="-0.32999983" y="0.6700001"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="x5_sig_plus1" second="x5_sig1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.32999986" y="0.32999986"/>
+          <vec2 x="-0.33000004" y="0.6700001"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="x5_sig1" second="x5_sig_minus1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.32999995" y="0.32999995"/>
+          <vec2 x="-0.32999977" y="0.67000014"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="x5_sig_minus1" second="x5_sig0" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.32999983" y="0.32999992"/>
+          <vec2 x="-0.32999998" y="0.6700001"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="x4_sig0" second="x4_sig_plus1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.32999998" y="0.3300003"/>
+          <vec2 x="-0.33000022" y="0.67000014"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="x4_sig_plus1" second="x4_sig1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.33000022" y="0.32999992"/>
+          <vec2 x="-0.32999998" y="0.6699997"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="x4_sig1" second="x4_sig_minus1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.32999998" y="0.3300003"/>
+          <vec2 x="-0.33000022" y="0.6700001"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="x4_sig_minus1" second="x4_sig0" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.33000022" y="0.32999995"/>
+          <vec2 x="-0.32999998" y="0.6699997"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="go_sig0" second="go_sig_plus1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.32999998" y="0.3300003"/>
+          <vec2 x="-0.33000022" y="0.67000014"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="go_sig_plus1" second="go_sig1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.33000022" y="0.32999992"/>
+          <vec2 x="-0.32999998" y="0.6699997"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="go_sig1" second="go_sig_minus1" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.32999998" y="0.3300003"/>
+          <vec2 x="-0.33000022" y="0.6700001"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+    <editable-connection first="go_sig_minus1" second="go_sig0" selected="false">
+      <connection arrow="true" type="bezier">
+        <internal-points number="2">
+          <vec2 x="-0.33000022" y="0.32999995"/>
+          <vec2 x="-0.32999998" y="0.6699997"/>
+        </internal-points>
+      </connection>
+    </editable-connection>
+  </document>
+</workcraft>

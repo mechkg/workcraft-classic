@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workcraft>
+<options tab="0"/>
+<editor>
+<options grid="true" ids="true" labels="true" snap="true"/>
+<viewstate s="1.0" tx="0.0" ty="0.0"/>
+</editor>
+<document model-uuid="9df82f00-7aec-11db-9fe1-0800200c9a66">
+<editable class="workcraft.editor.GroupNode" id="_root" label="" selected="false">
+<transform>
+<vec3 x="0.0" y="0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<editable class="workcraft.counterflow.EditableCFRegister" id="r0" label="" selected="false">
+<transform>
+<vec3 x="-0.0" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<register and-token="-1" or-token="-1"/>
+</editable>
+</editable>
+</document>
+</workcraft>

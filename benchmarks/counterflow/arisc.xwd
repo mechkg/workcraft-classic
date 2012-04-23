@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workcraft>
+<options tab="2"/>
+<editor>
+<options grid="true" ids="false" labels="true" snap="true"/>
+<viewstate s="0.68301326" tx="-1.2967501" ty="0.022719383"/>
+</editor>
+<document model-uuid="9df82f00-7aec-11db-9fe1-0800200c9a66">
+<editable class="workcraft.editor.GroupNode" id="_root" label="" selected="false">
+<transform>
+<vec3 x="0.0" y="0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<editable class="workcraft.counterflow.EditableCFLogic" id="l9" label="Bolt On" selected="false">
+<transform>
+<vec3 x="-2.3999999" y="0.59999996" z="-0.4"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<logic back-eval-delay="300" back-eval-func="lbe(l16)" back-reset-delay="300" back-reset-func="lbr(l16)" fwd-eval-delay="300" fwd-eval-func="rmo(r12)" fwd-reset-delay="300" fwd-reset-func="(not rmo(r12))"/>
+</editable>
+<editable class="workcraft.counterflow.EditableCFLogic" id="l1" label="" selected="false">
+<transform>
+<vec3 x="-0.3" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<logic back-eval-delay="300" back-eval-func="rmo(r2)" back-reset-delay="300" back-reset-func="(not rmo(r2))" fwd-eval-delay="300" fwd-eval-func="rmo(r1)" fwd-reset-delay="300" fwd-reset-func="(not rmo(r1))"/>
+</editable>
+<editable class="workcraft.counterflow.EditableCFRegister" id="r12" label="" selected="false">
+<transform>
+<vec3 x="-2.0999997" y="0.59999996" z="-0.4"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<register and-token="-1" or-token="-1"/>
+</editable>
+<editable class="workcraft.counterflow.EditableCFLogic" id="l4" label="PC Read" selected="false">
+<transform>
+<vec3 x="-1.1" y="0.2" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<logic back-eval-delay="300" back-eval-func="lbe(l5)" back-reset-delay="300" back-reset-func="lbr(l5)" fwd-eval-delay="300" fwd-eval-func="lfe(l2)" fwd-reset-delay="300" fwd-reset-func="lfr(l2)"/>
+</editable>
+<editable class="workcraft.counterflow.EditableCFRegister" id="r5" label="" selected="false">
+<transform>
+<vec3 x="0.0" y="0.6" z="-0.39999998"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<register and-token="1" or-token="1"/>
+</editable>
+<editable class="workcraft.counterflow.EditableCFRegister" id="r4" label="" selected="false">
+<transform>
+<vec3 x="-1.5" y="0.6" z="-0.39999998"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<register and-token="1" or-token="-1"/>
+</editable>
+<editable class="workcraft.counterflow.EditableCFRegister" id="r2" label="" selected="false">
+<transform>
+<vec3 x="-0.5" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<register and-token="-1" or-token="-1"/>
+</editable>
+<editable class="workcraft.counterflow.EditableCFRegister" id="r13" label="" selected="false">
+<transform>
+<vec3 x="-3.1000001" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<register and-token="-1" or-token="-1"/>
+</editable>
+<editable class="workcraft.counterflow.EditableCFRegister" id="r0" label="" selected="false">
+<transform>
+<vec3 x="0.3" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<register and-token="-1" or-token="1"/>
+</editable>
+<editable class="workcraft.counterflow.EditableCFLogic" id="l2" label="Flush" selected="false">
+<transform>
+<vec3 x="-0.7" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<logic back-eval-delay="300" back-eval-func="lbe(l3)&amp;lbe(l5)&amp;lbe(l4)" back-reset-delay="300" back-reset-func="lbr(l3)&amp;lbr(l5)&amp;lbr(l4)" fwd-eval-delay="300" fwd-eval-func="rmo(r2)" fwd-reset-delay="300" fwd-reset-func="(not rmo(r2))"/>
+</editable>
+<editable class="workcraft.counterflow.EditableCFRegister" id="r11" label="" selected="false">
+<transform>
+<vec3 x="-2.1" y="0.4" z="-0.20000002"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<register and-token="-1" or-token="-1"/>
+</editable>
+<editable class="workcraft.counterflow.EditableCFRegister" id="r10" label="" selected="false">
+<transform>
+<vec3 x="-2.1" y="0.2" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<register and-token="-1" or-token="-1"/>
+</editable>
+<editable class="workcraft.counterflow.EditableCFLogic" id="l13" label="Shift" selected="false">
+<transform>
+<vec3 x="-2.4" y="-0.3" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<logic back-eval-delay="300" back-eval-func="lbe(l15)" back-reset-delay="300" back-reset-func="lbr(l15)" fwd-eval-delay="300" fwd-eval-func="rmo(r8)" fwd-reset-delay="300" fwd-reset-func="(not rmo(r8))"/>
+</editable>
+<editable class="workcraft.counterflow.EditableCFLogic" id="l16" label="" selected="false">
+<transform>
+<vec3 x="-2.6000001" y="0.5" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<logic back-eval-delay="300" back-eval-func="lbe(l17)" back-reset-delay="300" back-reset-func="lbr(l17)" fwd-eval-delay="300" fwd-eval-func="lfe(l10)&amp;lfe(l9)" fwd-reset-delay="300" fwd-reset-func="lfr(l10)&amp;lfr(l9)"/>
+</editable>
+<editable class="workcraft.counterflow.EditableCFLogic" id="l7" label="Inst.Mem." selected="false">
+<transform>
+<vec3 x="0.3" y="0.6" z="-0.39999998"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<logic back-eval-delay="300" back-eval-func="rmo(r0)" back-reset-delay="300" back-reset-func="(not rmo(r0))" fwd-eval-delay="300" fwd-eval-func="rmo(r5)" fwd-reset-delay="300" fwd-reset-func="(not rmo(r5))"/>
+</editable>
+<editable class="workcraft.counterflow.EditableCFLogic" id="l12" label="CP0" selected="false">
+<transform>
+<vec3 x="-2.3999999" y="-0.10000001" z="0.099999994"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<logic back-eval-delay="300" back-eval-func="lbe(l15)" back-reset-delay="300" back-reset-func="lbr(l15)" fwd-eval-delay="300" fwd-eval-func="rmo(r7)" fwd-reset-delay="300" fwd-reset-func="(not rmo(r7))"/>
+</editable>
+<editable class="workcraft.counterflow.EditableCFLogic" id="l14" label="Logic" selected="false">
+<transform>
+<vec3 x="-2.4" y="-0.5" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<logic back-eval-delay="300" back-eval-func="lbe(l15)" back-reset-delay="300" back-reset-func="lbr(l15)" fwd-eval-delay="300" fwd-eval-func="rmo(r9)" fwd-reset-delay="300" fwd-reset-func="(not rmo(r9))"/>
+</editable>
+<editable class="workcraft.counterflow.EditableCFRegister" id="r8" label="" selected="false">
+<transform>
+<vec3 x="-2.1" y="-0.3" z="0.29999998"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<register and-token="-1" or-token="-1"/>
+</editable>
+<editable class="workcraft.counterflow.EditableCFLogic" id="l10" label="Data Mem." selected="false">
+<transform>
+<vec3 x="-2.4" y="0.4" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<logic back-eval-delay="300" back-eval-func="lbe(l16)" back-reset-delay="300" back-reset-func="lbr(l16)" fwd-eval-delay="300" fwd-eval-func="rmo(r11)" fwd-reset-delay="300" fwd-reset-func="(not rmo(r11))"/>
+</editable>
+<editable class="workcraft.counterflow.EditableCFRegister" id="r7" label="" selected="false">
+<transform>
+<vec3 x="-2.0999997" y="-0.10000001" z="0.099999994"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<register and-token="-1" or-token="-1"/>
+</editable>
+<editable class="workcraft.counterflow.EditableCFLogic" id="l0" label="Decode" selected="false">
+<transform>
+<vec3 x="0.1" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<logic back-eval-delay="300" back-eval-func="rmo(r1)" back-reset-delay="300" back-reset-func="(not rmo(r1))" fwd-eval-delay="300" fwd-eval-func="rmo(r0)" fwd-reset-delay="300" fwd-reset-func="(not rmo(r0))"/>
+</editable>
+<editable class="workcraft.counterflow.EditableCFLogic" id="l5" label="Issue" selected="false">
+<transform>
+<vec3 x="-1.5" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<logic back-eval-delay="300" back-eval-func="rmo(r3)&amp;rmo(r4)" back-reset-delay="300" back-reset-func="(not rmo(r3))&amp;(not rmo(r4))" fwd-eval-delay="300" fwd-eval-func="lfe(l2)&amp;lfe(l3)&amp;lfe(l4)" fwd-reset-delay="300" fwd-reset-func="lfr(l2)&amp;lfr(l3)&amp;lfr(l4)"/>
+</editable>
+<editable class="workcraft.counterflow.EditableCFRegister" id="r1" label="" selected="false">
+<transform>
+<vec3 x="-0.1" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<register and-token="-1" or-token="-1"/>
+</editable>
+<editable class="workcraft.counterflow.EditableCFLogic" id="l17" label="REG Write" selected="false">
+<transform>
+<vec3 x="-2.8" y="0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<logic back-eval-delay="300" back-eval-func="rmo(r13)" back-reset-delay="300" back-reset-func="(not rmo(r13))" fwd-eval-delay="300" fwd-eval-func="lfe(l16)&amp;lfe(l15)" fwd-reset-delay="300" fwd-reset-func="lfr(l16)&amp;lfr(l15)"/>
+</editable>
+<editable class="workcraft.counterflow.EditableCFLogic" id="l6" label="PC ALU" selected="false">
+<transform>
+<vec3 x="-1.2" y="0.6" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<logic back-eval-delay="300" back-eval-func="rmo(r5)" back-reset-delay="300" back-reset-func="(not rmo(r5))" fwd-eval-delay="300" fwd-eval-func="rmo(r4)" fwd-reset-delay="300" fwd-reset-func="(not rmo(r4))"/>
+</editable>
+<editable class="workcraft.counterflow.EditableCFLogic" id="l11" label="Arith." selected="false">
+<transform>
+<vec3 x="-2.4" y="0.2" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<logic back-eval-delay="300" back-eval-func="lbe(l15)" back-reset-delay="300" back-reset-func="lbr(l15)" fwd-eval-delay="300" fwd-eval-func="rmo(r10)" fwd-reset-delay="300" fwd-reset-func="(not rmo(r10))"/>
+</editable>
+<editable class="workcraft.counterflow.EditableCFLogic" id="l8" label="fork" selected="false">
+<transform>
+<vec3 x="-1.8999997" y="0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<logic back-eval-delay="300" back-eval-func="rmo(r9)&amp;rmo(r8)&amp;rmo(r7)&amp;rmo(r10)&amp;rmo(r11)&amp;rmo(r12)" back-reset-delay="300" back-reset-func="(not rmo(r9))&amp;(not rmo(r8))&amp;(not rmo(r7))&amp;(not rmo(r10))&amp;(not rmo(r11))&amp;(not rmo(r12))" fwd-eval-delay="300" fwd-eval-func="rmo(r3)" fwd-reset-delay="300" fwd-reset-func="(not rmo(r3))"/>
+</editable>
+<editable class="workcraft.counterflow.EditableCFRegister" id="r9" label="" selected="false">
+<transform>
+<vec3 x="-2.1" y="-0.5" z="0.4999999"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<register and-token="-1" or-token="-1"/>
+</editable>
+<editable class="workcraft.counterflow.EditableCFLogic" id="l3" label="REG Read" selected="false">
+<transform>
+<vec3 x="-1.1" y="-0.2" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<logic back-eval-delay="300" back-eval-func="lbe(l5)" back-reset-delay="300" back-reset-func="lbr(l5)" fwd-eval-delay="300" fwd-eval-func="lfe(l2)" fwd-reset-delay="300" fwd-reset-func="lfr(l2)"/>
+</editable>
+<editable class="workcraft.counterflow.EditableCFLogic" id="l15" label="" selected="false">
+<transform>
+<vec3 x="-2.6000001" y="-0.2" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<logic back-eval-delay="300" back-eval-func="lbe(l17)" back-reset-delay="300" back-reset-func="lbr(l17)" fwd-eval-delay="300" fwd-eval-func="lfe(l14)&amp;lfe(l13)&amp;lfe(l12)&amp;lfe(l11)" fwd-reset-delay="300" fwd-reset-func="lfr(l14)&amp;lfr(l13)&amp;lfr(l12)&amp;lfr(l11)"/>
+</editable>
+<editable class="workcraft.counterflow.EditableCFRegister" id="r3" label="" selected="false">
+<transform>
+<vec3 x="-1.7" y="-0.0" z="0.0"/>
+<vec3 x="1.0" y="1.0" z="1.0"/>
+</transform>
+<register and-token="-1" or-token="-1"/>
+</editable>
+</editable>
+<editable-connection first="r0" second="l0" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="l0" second="r1" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="r1" second="l1" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="l1" second="r2" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="r2" second="l2" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="l2" second="l3" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="l2" second="l5" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="l3" second="l5" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="l2" second="l4" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="l4" second="l5" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="l5" second="r3" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="l5" second="r4" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="r4" second="l6" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="l6" second="r5" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="r5" second="l7" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="l7" second="r0" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="r3" second="l8" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="l8" second="r9" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="l8" second="r8" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="l8" second="r7" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="l8" second="r10" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="l8" second="r11" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="l8" second="r12" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="r12" second="l9" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="r11" second="l10" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="r10" second="l11" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="r7" second="l12" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="r8" second="l13" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="r9" second="l14" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="l14" second="l15" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="l13" second="l15" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="l12" second="l15" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="l11" second="l15" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="l10" second="l16" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="l9" second="l16" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="l16" second="l17" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="l15" second="l17" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+<editable-connection first="l17" second="r13" selected="false">
+<connection arrow="true" type="straight"/>
+</editable-connection>
+</document>
+</workcraft>
